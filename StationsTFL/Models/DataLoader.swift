@@ -24,7 +24,7 @@ public class DataLoader: ObservableObject {
         decodeJSONFile()
         
         //Sorted Data
-        sortData()
+        //sortData()
         
         
     }
@@ -73,7 +73,7 @@ func decodeJSONFile() {
     
     }//Function decoder closure
     
-    
+  /*
     //Function to sort data
     func sortData() {
         
@@ -82,7 +82,7 @@ func decodeJSONFile() {
         
         
     }
-    
+    */
     
     
     

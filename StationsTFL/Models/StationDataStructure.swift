@@ -9,15 +9,25 @@
 //Data Structure for Stations
 import SwiftUI
 
+
+
+
 struct Stations: Codable, Identifiable {
+    
     
     public var id: Int
     
     public var tla: String
     public var name:    String
-    public var lines:   String
-    
-    
+    public var lines:   [String]
+
+        
 }
 
+
+struct TubeLines: Codable {
+    
+    let lines:  [String]
+    
+}
 
