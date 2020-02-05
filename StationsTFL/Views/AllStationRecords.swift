@@ -25,9 +25,7 @@ struct AllStationRecords: View {
         NavigationView {
             
             
-        
-            
-                
+    
                 
             List {
                     
@@ -36,34 +34,31 @@ struct AllStationRecords: View {
                     
                         ForEach(self.allStations.dataStructure.filter {$0.name == model.name},id: \.id) { lineData in
                         
-                        ForEach(lineData.lines,id: \.self) { line in
+                            ForEach(lineData.lines,id: \.self) { line in
+                                
+                                Text("\(line)")
+                                    .foregroundColor(Color.blue)
                             
-                        Text("\(line)")
                             
-                            
-                        }
+                        }//Line Data
                         
-                    }
+                    }//End of all station with filter
                         
                         
-                    }
+                    }//Section Enf
         
                 
-                }
+                }//End of Model Section
                 
 
-                
-                
-        
-                
-        }
+        }//End of List
 
-       
-        }
+            .navigationBarTitle(Text("Tube Stations"))
+        }//End of Navigation View
             
-        }
+        }//End of Body View
         
-    }
+    }//End of Struct View
 
 
 

@@ -23,11 +23,3 @@ struct Stations: Codable, Identifiable {
 
         
 }
-
-
-struct TubeLines: Codable {
-    
-    let lines:  [String]
-    
-}
-
