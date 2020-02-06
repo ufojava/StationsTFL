@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03AE034823ECC27B0045DFAF /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE034723ECC27B0045DFAF /* Menu.swift */; };
 		03C16D2123E7185100B06FD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C16D2023E7185100B06FD5 /* AppDelegate.swift */; };
 		03C16D2323E7185100B06FD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C16D2223E7185100B06FD5 /* SceneDelegate.swift */; };
 		03C16D2523E7185100B06FD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C16D2423E7185100B06FD5 /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03AE034723ECC27B0045DFAF /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		03C16D1D23E7185100B06FD5 /* StationsTFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StationsTFL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C16D2023E7185100B06FD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03C16D2223E7185100B06FD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				03C16D3C23E7765300B06FD5 /* StationDataStructure.swift */,
 				03C16D3E23E7898D00B06FD5 /* DataLoader.swift */,
+				03AE034723ECC27B0045DFAF /* Menu.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			files = (
 				03C16D3F23E7898D00B06FD5 /* DataLoader.swift in Sources */,
 				03C16D2123E7185100B06FD5 /* AppDelegate.swift in Sources */,
+				03AE034823ECC27B0045DFAF /* Menu.swift in Sources */,
 				03C16D2323E7185100B06FD5 /* SceneDelegate.swift in Sources */,
 				03C16D4123E7EC4000B06FD5 /* AllStationRecords.swift in Sources */,
 				03C16D3D23E7765300B06FD5 /* StationDataStructure.swift in Sources */,

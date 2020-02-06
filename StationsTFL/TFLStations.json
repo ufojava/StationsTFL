@@ -69,7 +69,7 @@
         "id": 12,
        "tla":"BST",
        "name":"Baker Street",
-       "lines": ["Bakerloo", "Hammersmith", "Jubilee", "Metropolitan"]
+       "lines": ["Bakerloo", "Hammersmith", "Jubilee", "Metropolitan","Circle"]
     },
     {
         "id": 13,
@@ -87,7 +87,7 @@
         "id": 15,
        "tla":"BAR",
        "name":"Barbican",
-       "lines": ["Hammersmith", "Metropolitan"]
+       "lines": ["Hammersmith", "Metropolitan","Circle"]
     },
     {
         "id": 16,
@@ -147,7 +147,7 @@
         "id": 25,
        "tla":"BLF",
        "name":"Blackfriars",
-       "lines": ["District", "Hammersmith"]
+       "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 26,
@@ -267,7 +267,7 @@
         "id": 45,
        "tla":"CST",
        "name":"Cannon Street",
-       "lines": ["District", "Hammersmith"]
+       "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 46,
@@ -279,7 +279,7 @@
         "id": 47,
        "tla":"CLF",
        "name":"Chalfont and Latimer",
-       "lines": ["Metropolitan"]
+       "lines": ["Metropolitan","Circle"]
     },
     {
         "id": 48,
@@ -483,13 +483,13 @@
         "id": 81,
        "tla":"EDG",
        "name":"Edgware",
-       "lines": ["Northern"]
+       "lines": ["Northern","Circle"]
     },
     {
         "id": 82,
        "tla":"ERB",
        "name":"Edgware Road (Bakerloo)",
-       "lines": ["Bakerloo"]
+       "lines": ["Bakerloo","Circle"]
     },
     {
         "id": 83,
@@ -519,7 +519,7 @@
         "id": 87,
        "tla":"EMB",
        "name":"Embankment",
-       "lines": ["Bakerloo", "District", "Hammersmith", "Northern"]
+       "lines": ["Bakerloo", "District", "Hammersmith", "Northern","Circle"]
     },
     {
         "id": 88,
@@ -537,7 +537,7 @@
         "id": 90,
        "tla":"ESQ",
        "name":"Euston Square",
-       "lines": ["Hammersmith", "Metropolitan"]
+       "lines": ["Hammersmith", "Metropolitan","Circle"]
     },
     {
         "id": 91,
@@ -549,7 +549,7 @@
         "id": 92,
        "tla":"FAR",
        "name":"Farringdon",
-       "lines": ["Hammersmith", "Metropolitan"]
+       "lines": ["Hammersmith", "Metropolitan","Circle"]
     },
     {
         "id": 93,
@@ -591,7 +591,7 @@
         "id": 99,
        "tla":"GRD",
        "name":"Gloucester Road",
-       "lines": ["District", "Hammersmith", "Piccadilly"]
+       "lines": ["District", "Hammersmith", "Piccadilly","Circle"]
     },
     {
         "id": 100,
@@ -615,7 +615,7 @@
         "id": 103,
        "tla":"GPS",
        "name":"Great Portland Street",
-       "lines": ["Hammersmith", "Metropolitan"]
+       "lines": ["Hammersmith", "Metropolitan","Circle"]
     },
     {
         "id": 104,
@@ -651,7 +651,7 @@
         "id": 109,
        "tla":"HMS",
        "name":"Hammersmith",
-       "lines": ["Hammersmith"]
+       "lines": ["Hammersmith", "Circle"]
     },
     {
         "id": 110,
@@ -735,7 +735,7 @@
         "id": 123,
        "tla":"HST",
        "name":"High Street Kensington",
-       "lines": ["District", "Hammersmith"]
+       "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 124,
@@ -873,7 +873,7 @@
         "id": 146,
        "tla":"KXX",
        "name":"King\"s Cross St Pancras",
-       "lines": ["Hammersmith", "Metropolitan", "Northern", "Piccadilly", "Victoria"]
+       "lines": ["Hammersmith", "Metropolitan", "Northern", "Piccadilly", "Victoria","Circle"]
     },
     {
         "id": 147,
@@ -939,7 +939,7 @@
         "id": 157,
        "tla":"LST",
        "name":"Liverpool Street",
-       "lines": ["Central", "Hammersmith", "Metropolitan"]
+       "lines": ["Central", "Hammersmith", "Metropolitan","Circle"]
     },
     {
         "id": 158,
@@ -975,7 +975,7 @@
         "id": 163,
        "tla":"MAN",
        "name":"Mansion House",
-       "lines": ["District", "Hammersmith"]
+       "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 164,
@@ -1005,7 +1005,7 @@
         "id": 168,
        "tla":"MON",
        "name":"Monument",
-       "lines": ["District", "Hammersmith"]
+       "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 169,
@@ -1017,7 +1017,7 @@
         "id": 170,
        "tla":"MGT",
        "name":"Moorgate",
-       "lines": ["Hammersmith", "Metropolitan", "Northern"]
+       "lines": ["Hammersmith", "Metropolitan", "Northern","Circle"]
     },
     {
         "id": 171,
@@ -1113,7 +1113,7 @@
         "id": 186,
        "tla":"NHG",
        "name":"Notting Hill Gate",
-       "lines": ["Central"]
+       "lines": ["Central","Circle"]
     },
     {
         "id": 187,
@@ -1149,7 +1149,7 @@
         "id": 192,
        "tla":"PAD",
        "name":"Paddington",
-       "lines": ["Bakerloo", "Hammersmith"]
+       "lines": ["Bakerloo", "Hammersmith","Circle"]
     },
     {
         "id": 193,
@@ -1335,13 +1335,13 @@
         "id": 223,
        "tla":"SBC",
        "name":"Shepherd\"s Bush",
-       "lines": ["Central"]
+       "lines": ["Central","Circle"]
     },
     {
         "id": 224,
        "tla":"SSQ",
        "name":"Sloane Square",
-       "lines": ["District", "Hammersmith"]
+       "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 225,
@@ -1365,7 +1365,7 @@
         "id": 228,
        "tla":"SKN",
        "name":"South Kensington",
-       "lines": ["District", "Hammersmith", "Piccadilly"]
+       "lines": ["District", "Hammersmith", "Piccadilly","Circle"]
     },
     {
         "id": 229,
@@ -1509,7 +1509,7 @@
         "id": 252,
        "tla":"TEM",
        "name":"Temple",
-       "lines": ["District", "Hammersmith"]
+       "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 253,
@@ -1557,7 +1557,7 @@
         "id": 260,
        "tla":"THL",
        "name":"Tower Hill",
-       "lines": ["District", "Hammersmith"]
+       "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 261,
@@ -1617,7 +1617,7 @@
         "id": 270,
        "tla":"VIC",
        "name":"Victoria",
-       "lines": ["District", "Hammersmith", "Victoria"]
+       "lines": ["District", "Hammersmith", "Victoria","Circle"]
     },
     {
         "id": 271,
@@ -1743,7 +1743,7 @@
         "id": 291,
        "tla":"WMS",
        "name":"Westminster",
-       "lines": ["District", "Hammersmith", "Jubilee"]
+       "lines": ["District", "Hammersmith", "Jubilee","Circle"]
     },
     {
         "id": 292,

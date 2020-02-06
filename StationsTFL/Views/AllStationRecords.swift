@@ -37,18 +37,25 @@ struct AllStationRecords: View {
                         
                             ForEach(lineData.lines,id: \.self) { line in
                                 
-                                HStack {
-                                    Text("\(line)")
-                                        .foregroundColor(Color.blue)
-                                    
-                                    Image("\(line)")
-                                    .resizable()
-                                    .frame(width:80,height: 20)
-                                    .cornerRadius(6)
-                                    
-                                }
+                                
+                                GeometryReader { geometry in
+                                
+                                    HStack(spacing: 0) {
+                                            Text("\(line)")
+                                                .frame(width: geometry.size.width / 2, height: 40)
+                                                .foregroundColor(Color.blue)
+                                            
+                                            Image("\(line)")
+                                            .resizable()
+                                            .frame(width: geometry.size.width / 2, height: 40)
+                                            .cornerRadius(2)
+                                                
+                                            
+                                            
+                                        }//End of HStack
                             
-                            
+                                }//End of Geometry
+                                
                         }//Line Data
                         
                     }//End of all station with filter
