@@ -16,6 +16,7 @@ struct AllStationRecords: View {
     //Access to Station Data
     @ObservedObject var allStations = DataLoader()
     
+    
 
     
 
@@ -36,8 +37,16 @@ struct AllStationRecords: View {
                         
                             ForEach(lineData.lines,id: \.self) { line in
                                 
-                                Text("\(line)")
-                                    .foregroundColor(Color.blue)
+                                HStack {
+                                    Text("\(line)")
+                                        .foregroundColor(Color.blue)
+                                    
+                                    Image("\(line)")
+                                    .resizable()
+                                    .frame(width:80,height: 20)
+                                    .cornerRadius(6)
+                                    
+                                }
                             
                             
                         }//Line Data

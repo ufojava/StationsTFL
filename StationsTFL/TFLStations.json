@@ -27,7 +27,7 @@
         "id": 5,
        "tla":"ALS",
        "name":"All Saints",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 6,
@@ -159,7 +159,7 @@
         "id": 27,
        "tla":"BLA",
        "name":"Blackwall",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 28,
@@ -235,7 +235,7 @@
     },
     {
         "id": 40,
-       "tla":"CTN",
+       "tla":"Dockland LightCTN",
        "name":"Camden Town",
        "lines": ["Northern"]
     },
@@ -363,7 +363,7 @@
         "id": 61,
        "tla":"CRO",
        "name":"Crossharbour",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 62,
@@ -375,19 +375,19 @@
         "id": 63,
        "tla":"CUH",
        "name":"Custom House for ExCeL",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 64,
        "tla":"CUS",
        "name":"Cutty Sark for Maritime Greenwich",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 65,
        "tla":"CYP",
        "name":"Cyprus",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 66,
@@ -411,13 +411,13 @@
         "id": 69,
        "tla":"EB",
        "name":"Deptford Bridge",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 70,
        "tla":"DER",
        "name":"Devons Road",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 71,
@@ -465,7 +465,7 @@
         "id": 78,
        "tla":"EAI",
        "name":"East India",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 79,
@@ -513,7 +513,7 @@
         "id": 86,
        "tla":"ELR",
        "name":"Elverson Road",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 87,
@@ -579,7 +579,7 @@
         "id": 97,
        "tla":"GAR",
        "name":"Gallions Reach",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 98,
@@ -633,7 +633,7 @@
         "id": 106,
        "tla":"GRE",
        "name":"Greenwich",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 107,
@@ -723,7 +723,7 @@
         "id": 121,
        "tla":"HEQ",
        "name":"Heron Quays",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 122,
@@ -867,7 +867,7 @@
         "id": 145,
        "tla":"KGV",
        "name":"King George V",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 146,
@@ -915,7 +915,7 @@
         "id": 153,
        "tla":"LEW",
        "name":"Lewisham",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 154,
@@ -933,7 +933,7 @@
         "id": 156,
        "tla":"LIM",
        "name":"Limehouse",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 157,
@@ -951,7 +951,7 @@
         "id": 159,
        "tla":"LCA",
        "name":"London City Airport",
-       "lines": ["Docklands light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 160,
@@ -1203,19 +1203,19 @@
         "id": 201,
        "tla":"POP",
        "name":"Poplar",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 202,
        "tla":"PRR",
        "name":"Prince Regent",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 203,
        "tla":"PML",
        "name":"Pudding Mill Lane",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 204,
@@ -1329,7 +1329,7 @@
         "id": 222,
        "tla":"SHA",
        "name":"Shadwell",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 223,
@@ -1377,7 +1377,7 @@
         "id": 230,
        "tla":"SOQ",
        "name":"South Quay",
-       "lines": ["Docklands light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 231,
@@ -1449,7 +1449,7 @@
         "id": 242,
        "tla":"STL",
        "name":"Star Lane",
-       "lines": ["Docklands light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 243,
@@ -1479,13 +1479,13 @@
         "id": 247,
        "tla":"SHS",
        "name":"Stratford High Street",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 248,
        "tla":"STI",
        "name":"Stratford International",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 249,
@@ -1551,7 +1551,7 @@
         "id": 259,
        "tla":"TOG",
        "name":"Tower Gateway",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 260,
@@ -1713,7 +1713,7 @@
         "id": 286,
        "tla":"WIQ",
        "name":"West India Quay",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 287,
@@ -1737,7 +1737,7 @@
         "id": 290,
        "tla":"WES",
        "name":"Westferry",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     },
     {
         "id": 291,
@@ -1803,6 +1803,6 @@
         "id": 301,
        "tla":"WOA",
        "name":"Woolwich Arsenal",
-       "lines": ["Docklands Light"]
+       "lines": ["Dockland Light"]
     }
  ]
