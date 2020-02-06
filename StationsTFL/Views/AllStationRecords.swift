@@ -6,7 +6,7 @@
 //  Copyright © 2020 Ufuoma Okoro. All rights reserved.
 //
 
-//This file contains struct that produces all records
+//This file contains struct that produces all Tube stations and thier lines
 import SwiftUI
 
 
