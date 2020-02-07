@@ -23,7 +23,7 @@ struct AllStationRecords: View {
     
     var body: some View {
         
-        NavigationView {
+       // NavigationView {
             
             
     
@@ -69,8 +69,8 @@ struct AllStationRecords: View {
 
         }//End of List
 
-            .navigationBarTitle(Text("Tube Stations"))
-        }//End of Navigation View
+            //.navigationBarTitle(Text("Tube Stations"))
+        //}//End of Navigation View
             
         }//End of Body View
         

@@ -10,30 +10,36 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+    
+        NavigationView {
         
         
-        ZStack {
-            Color.black
-                .edgesIgnoringSafeArea(.all)
+                    ZStack {
+                            Color.black
+                                .edgesIgnoringSafeArea(.all)
+               
+                        ZStack {
+                            
+                            //Background
+                            Image("TubeLineBackGround")
+                                .resizable()
+                                .scaledToFill()
+                            .padding()
+                                
+                            Menu()
+                            
+                            //Text("Hello, World!")
+                           //AllStationRecords()
+                            
+                            
+                            
+                        }//End ZStack Background Image
+                
+                }//End Main ZStack
+            
+            .navigationBarTitle(Text("🚇🚇🚇"))
+        }//Navigation View
         
-                ZStack {
-                    
-                    //Background
-                    Image("TubeLineBackGround")
-                        .resizable()
-                        .scaledToFill()
-                    .padding()
-                        
-                    Menu()
-                    
-                    //Text("Hello, World!")
-                   //AllStationRecords()
-                    
-                    
-                    
-                }
-        
-        }
         
     }
 }

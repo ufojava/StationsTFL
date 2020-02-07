@@ -55,8 +55,16 @@ struct Menu: View {
                         //All Station List
                         if allStationToggle {
                             
+                            //Navigation Link
+                            NavigationLink(destination: AllStationRecords()) {
+                            
                             MenuIcons(icons: "book")
                                 .foregroundColor(Color.green)
+                            
+                            
+                            }
+                            
+                            
                         }//End All Station
                         
                         
