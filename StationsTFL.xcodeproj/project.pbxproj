@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		03AE034823ECC27B0045DFAF /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE034723ECC27B0045DFAF /* Menu.swift */; };
+		03AE034A23EE29D50045DFAF /* SearchRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE034923EE29D50045DFAF /* SearchRecords.swift */; };
+		03AE034C23EEDA910045DFAF /* TFLStations.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AE034B23EEDA900045DFAF /* TFLStations.json */; };
 		03C16D2123E7185100B06FD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C16D2023E7185100B06FD5 /* AppDelegate.swift */; };
 		03C16D2323E7185100B06FD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C16D2223E7185100B06FD5 /* SceneDelegate.swift */; };
 		03C16D2523E7185100B06FD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C16D2423E7185100B06FD5 /* ContentView.swift */; };
 		03C16D2723E7185400B06FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C16D2623E7185400B06FD5 /* Assets.xcassets */; };
 		03C16D2A23E7185400B06FD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C16D2923E7185400B06FD5 /* Preview Assets.xcassets */; };
 		03C16D2D23E7185400B06FD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C16D2B23E7185400B06FD5 /* LaunchScreen.storyboard */; };
-		03C16D3A23E7296C00B06FD5 /* TFLStations.json in Resources */ = {isa = PBXBuildFile; fileRef = 03C16D3723E7296C00B06FD5 /* TFLStations.json */; };
+		03C16D3A23E7296C00B06FD5 /* TFLStationsV2.json in Resources */ = {isa = PBXBuildFile; fileRef = 03C16D3723E7296C00B06FD5 /* TFLStationsV2.json */; };
 		03C16D3D23E7765300B06FD5 /* StationDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C16D3C23E7765300B06FD5 /* StationDataStructure.swift */; };
 		03C16D3F23E7898D00B06FD5 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C16D3E23E7898D00B06FD5 /* DataLoader.swift */; };
 		03C16D4123E7EC4000B06FD5 /* AllStationRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C16D4023E7EC4000B06FD5 /* AllStationRecords.swift */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		03AE034723ECC27B0045DFAF /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		03AE034923EE29D50045DFAF /* SearchRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecords.swift; sourceTree = "<group>"; };
+		03AE034B23EEDA900045DFAF /* TFLStations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TFLStations.json; sourceTree = "<group>"; };
 		03C16D1D23E7185100B06FD5 /* StationsTFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StationsTFL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C16D2023E7185100B06FD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03C16D2223E7185100B06FD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,7 +34,7 @@
 		03C16D2923E7185400B06FD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03C16D2C23E7185400B06FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03C16D2E23E7185400B06FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03C16D3723E7296C00B06FD5 /* TFLStations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TFLStations.json; sourceTree = "<group>"; };
+		03C16D3723E7296C00B06FD5 /* TFLStationsV2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TFLStationsV2.json; sourceTree = "<group>"; };
 		03C16D3C23E7765300B06FD5 /* StationDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDataStructure.swift; sourceTree = "<group>"; };
 		03C16D3E23E7898D00B06FD5 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		03C16D4023E7EC4000B06FD5 /* AllStationRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllStationRecords.swift; sourceTree = "<group>"; };
@@ -66,7 +70,8 @@
 		03C16D1F23E7185100B06FD5 /* StationsTFL */ = {
 			isa = PBXGroup;
 			children = (
-				03C16D3723E7296C00B06FD5 /* TFLStations.json */,
+				03AE034B23EEDA900045DFAF /* TFLStations.json */,
+				03C16D3723E7296C00B06FD5 /* TFLStationsV2.json */,
 				03C16D3523E718B600B06FD5 /* Views */,
 				03C16D3423E7187400B06FD5 /* Models */,
 				03C16D2023E7185100B06FD5 /* AppDelegate.swift */,
@@ -102,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				03C16D4023E7EC4000B06FD5 /* AllStationRecords.swift */,
+				03AE034923EE29D50045DFAF /* SearchRecords.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,8 +170,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C16D3A23E7296C00B06FD5 /* TFLStations.json in Resources */,
+				03C16D3A23E7296C00B06FD5 /* TFLStationsV2.json in Resources */,
 				03C16D2D23E7185400B06FD5 /* LaunchScreen.storyboard in Resources */,
+				03AE034C23EEDA910045DFAF /* TFLStations.json in Resources */,
 				03C16D2A23E7185400B06FD5 /* Preview Assets.xcassets in Resources */,
 				03C16D2723E7185400B06FD5 /* Assets.xcassets in Resources */,
 			);
@@ -184,6 +191,7 @@
 				03C16D2323E7185100B06FD5 /* SceneDelegate.swift in Sources */,
 				03C16D4123E7EC4000B06FD5 /* AllStationRecords.swift in Sources */,
 				03C16D3D23E7765300B06FD5 /* StationDataStructure.swift in Sources */,
+				03AE034A23EE29D50045DFAF /* SearchRecords.swift in Sources */,
 				03C16D2523E7185100B06FD5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

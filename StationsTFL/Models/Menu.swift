@@ -71,14 +71,19 @@ struct Menu: View {
                         //Search Station List
                         if searchStationToggle {
                             
+                            //Navigation Link
+                            NavigationLink(destination: SearchRecords()) {
+                            
                             MenuIcons(icons: "doc.text.magnifyingglass")
                                 .foregroundColor(Color.yellow)
+                            
+                            }
                         }
                 
                         //Station Stats
                 if stationStatsToggle {
                     
-                    MenuIcons(icons: "function")
+                    MenuIcons(icons: "gamecontroller")
                         .foregroundColor(Color.blue)
                 }
                         

@@ -69,7 +69,7 @@ struct AllStationRecords: View {
 
         }//End of List
 
-            //.navigationBarTitle(Text("Tube Stations"))
+                .navigationBarTitle(Text("Tube Stations"),displayMode: .inline)
         //}//End of Navigation View
             
         }//End of Body View
