@@ -3,551 +3,735 @@
         "id": 1,
        "tla":"ABR",
        "name":"Abbey Road",
+       "latitude": 51.531952,
+       "longitude": 0.003723,
        "lines": ["Dockland Light"]
     },
     {
        "id": 2,
        "tla":"ACT",
        "name":"Acton Town",
+       "latitude": 51.502500,
+       "longitude": -0.278126,
        "lines": ["District", "Piccadilly"]
     },
     {
        "id": 3,
        "tla":"ALD",
        "name":"Aldgate",
+       "latitude": 51.51394,
+       "longitude": -0.07537,
        "lines": ["Hammersmith", "Metropolitan"]
     },
     {
         "id": 4,
        "tla":"ALE",
        "name":"Aldgate East",
+       "latitude": 51.51514,
+       "longitude": -0.07178,
        "lines": ["District", "Hammersmith"]
     },
     {
         "id": 5,
        "tla":"ALS",
        "name":"All Saints",
+       "latitude": 51.510301,
+       "longitude": -0.012832,
        "lines": ["Dockland Light"]
     },
     {
         "id": 6,
        "tla":"ALP",
        "name":"Alperton",
+       "latitude": 51.54097,
+       "longitude": -0.30061,
        "lines": ["Piccadilly"]
     },
     {
         "id": 7,
        "tla":"AME",
        "name":"Amersham",
+       "latitude": 51.67435,
+       "longitude": -0.60732,
        "lines": ["Metropolitan"]
     },
     {
         "id": 8,
        "tla":"ANG",
        "name":"Angel",
+       "latitude": 51.53253,
+       "longitude": -0.10579,
        "lines": ["Northern"]
     },
     {
         "id": 9,
        "tla":"ARC",
        "name":"Archway",
+       "latitude": 51.56536,
+       "longitude": -0.13474,
        "lines": ["Northern"]
     },
     {
         "id": 10,
        "tla":"AGR",
        "name":"Arnos Grove",
+       "latitude": 51.61625,
+       "longitude": -0.13355,
        "lines": ["Piccadilly"]
     },
     {
         "id": 11,
        "tla":"ARL",
        "name":"Arsenal",
+       "latitude": 51.55847,
+       "longitude": -0.10561,
        "lines": ["Piccadilly"]
     },
     {
         "id": 12,
        "tla":"BST",
        "name":"Baker Street",
+       "latitude": 51.52265,
+       "longitude": -0.15704,
        "lines": ["Bakerloo", "Hammersmith", "Jubilee", "Metropolitan","Circle"]
     },
     {
         "id": 13,
        "tla":"BAL",
        "name":"Balham",
+       "latitude": 51.44344113,
+       "longitude": -0.152945844,
        "lines": ["Northern"]
     },
     {
         "id": 14,
        "tla":"BNK",
        "name":"Bank",
+       "latitude": 51.5134047,
+       "longitude": -0.08905843,
        "lines": ["Central", "Northern", "Waterloo"]
     },
     {
         "id": 15,
        "tla":"BAR",
        "name":"Barbican",
+       "latitude": 51.520865,
+       "longitude": -0.097758,
        "lines": ["Hammersmith", "Metropolitan","Circle"]
     },
     {
         "id": 16,
        "tla":"BKG",
        "name":"Barking",
+       "latitude": 51.54079,
+       "longitude": 0.08018,
        "lines": ["District", "Hammersmith"]
     },
     {
         "id": 17,
        "tla":"BDE",
        "name":"Barkingside",
+       "latitude": 51.58543,
+       "longitude": 0.08854,
        "lines": ["Central"]
     },
     {
         "id": 18,
        "tla":"BCT",
        "name":"Barons Court",
+       "latitude": 51.490281,
+       "longitude": -0.214340,
        "lines": ["District", "Piccadilly"]
     },
     {
         "id": 19,
        "tla":"BEC",
        "name":"Beckton",
-       "lines": ["District"]
+       "latitude": 51.5146,
+       "longitude": -0.0673,
+       "lines": ["Jubilee"]
     },
     {
         "id": 20,
        "tla":"BEP",
        "name":"Beckton Park",
+       "latitude": 51.508901,
+       "longitude": 0.054822,
        "lines": ["Dockland Light"]
     },
     {
         "id": 21,
        "tla":"BCT",
        "name":"Becontree",
+       "latitude": 51.54029,
+       "longitude": 0.12620,
        "lines": ["District"]
     },
     {
         "id": 22,
        "tla":"BPK",
        "name":"Belsize Park",
+       "latitude": 51.55036,
+       "longitude": -0.16465,
        "lines": ["Northern"]
     },
     {
         "id": 23,
        "tla":"BER",
        "name":"Bermondsey",
+       "latitude": 51.49813,
+       "longitude": -0.06350,
        "lines": ["Jubilee"]
     },
     {
         "id": 24,
        "tla":"BNG",
        "name":"Bethnal Green",
+       "latitude": 51.52718,
+       "longitude": -0.05504,
        "lines": ["Central"]
     },
     {
         "id": 25,
        "tla":"BLF",
        "name":"Blackfriars",
+       "latitude": 51.5114403,
+       "longitude": -0.10419050,
        "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 26,
        "tla":"BHR",
        "name":"Blackhorse Road",
+       "latitude": 51.58698,
+       "longitude": -0.04104,
        "lines": ["Victoria"]
     },
     {
         "id": 27,
        "tla":"BLA",
        "name":"Blackwall",
+       "latitude": 51.507832,
+       "longitude": -0.007235,
        "lines": ["Dockland Light"]
     },
     {
         "id": 28,
        "tla":"BDS",
        "name":"Bond Street",
+       "latitude": 51.51461,
+       "longitude": -0.14897,
        "lines": ["Central", "Jubilee"]
     },
     {
         "id": 29,
        "tla":"BOR",
        "name":"Borough",
+       "latitude": 51.50095,
+       "longitude": -0.09446,
        "lines": ["Northern"]
     },
     {
         "id": 30,
        "tla":"BOS",
        "name":"Boston Manor",
+       "latitude": 51.495371,
+       "longitude": -0.325573,
        "lines": ["Piccadilly"]
     },
     {
         "id": 31,
        "tla":"BGR",
        "name":"Bounds Green",
+       "latitude": 51.60700,
+       "longitude": -0.12418,
        "lines": ["Piccadilly"]
     },
     {
         "id": 32,
        "tla":"BOC",
        "name":"Bow Church",
+       "latitude": 51.527615,
+       "longitude": -0.0205,
        "lines": ["Dockland Light"]
     },
     {
         "id": 33,
        "tla":"BWR",
        "name":"Bow Road",
+       "latitude": 51.52709,
+       "longitude": -0.02482,
        "lines": ["District", "Hammersmith"]
     },
     {
         "id": 34,
        "tla":"BTX",
        "name":"Brent Cross",
+       "latitude": 51.57693,
+       "longitude": -0.21414,
        "lines": ["Northern"]
     },
     {
         "id": 35,
        "tla":"BRX",
        "name":"Brixton",
+       "latitude": 51.46239,
+       "longitude": -0.115421,
        "lines": ["Victoria"]
     },
     {
         "id": 36,
        "tla":"BBB",
        "name":"Bromley-by-Bow",
+       "latitude": 51.52466,
+       "longitude": -0.01282,
        "lines": ["District", "Hammersmith"]
     },
     {
         "id": 37,
        "tla":"BHL",
        "name":"Buckhurst Hill",
+       "latitude": 51.62611,
+       "longitude": 0.04705,
        "lines": ["Central"]
     },
     {
         "id": 38,
        "tla":"BUR",
        "name":"Burnt Oak",
+       "latitude": 51.60300,
+       "longitude": -0.26427,
        "lines": ["Northern"]
     },
     {
         "id": 39,
        "tla":"CRD",
        "name":"Caledonian Road",
+       "latitude": 51.54850,
+       "longitude": -0.11802,
        "lines": ["Piccadilly"]
     },
     {
         "id": 40,
-       "tla":"Dockland LightCTN",
+       "tla":"CTN",
        "name":"Camden Town",
+       "latitude": 51.54326,
+       "longitude": -0.11544,
        "lines": ["Northern"]
     },
     {
         "id": 41,
        "tla":"CWR",
        "name":"Canada Water",
+       "latitude": 51.49787,
+       "longitude": -0.04967,
        "lines": ["Jubilee"]
     },
     {
         "id": 42,
        "tla":"CWF",
        "name":"Canary Wharf",
+       "latitude": 51.50362,
+       "longitude": -0.01987,
        "lines": ["Jubilee"]
     },
     {
         "id": 43,
        "tla":"CNT",
        "name":"Canning Town",
+       "latitude": 51.5140,
+       "longitude": -0.0083,
        "lines": ["Jubilee"]
     },
     {
         "id": 44,
        "tla":"CAT",
        "name":"Canning Town",
+       "latitude": 51.5140,
+       "longitude": -0.0083,
        "lines": ["Dockland Light"]
     },
     {
         "id": 45,
        "tla":"CST",
        "name":"Cannon Street",
+       "latitude": 51.51141,
+       "longitude": -0.09047,
        "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 46,
        "tla":"CPK",
        "name":"Canons Park",
+       "latitude": 51.60810,
+       "longitude": -0.29487,
        "lines": ["Jubilee"]
     },
     {
         "id": 47,
        "tla":"CLF",
        "name":"Chalfont and Latimer",
+       "latitude": 51.66822,
+       "longitude": -0.56053,
        "lines": ["Metropolitan","Circle"]
     },
     {
         "id": 48,
        "tla":"CHF",
        "name":"Chalk Farm",
+       "latitude": 51.54390,
+       "longitude": -0.15384,
        "lines": ["Northern"]
     },
     {
         "id": 49,
        "tla":"CYL",
        "name":"Chancery Lane",
+       "latitude": 51.51836,
+       "longitude": -0.11115,
        "lines": ["Central"]
     },
     {
         "id": 50,
        "tla":"CHX",
        "name":"Charing Cross",
+       "latitude": 51.507108,
+       "longitude": -0.122963,
        "lines": ["Bakerloo", "Northern"]
     },
     {
         "id": 51,
        "tla":"CHG",
        "name":"Chigwell",
+       "latitude": 51.61795,
+       "longitude": 0.07511,
        "lines": ["Central"]
     },
     {
         "id": 52,
        "tla":"CHP",
        "name":"Chiswick Park",
+       "latitude": 51.49466,
+       "longitude": -0.26866,
        "lines": ["District"]
     },
     {
         "id": 53,
        "tla":"CWD",
        "name":"Chorleywood",
+       "latitude": 51.65429872,
+       "longitude": -0.518373353,
        "lines": ["Metropolitan"]
     },
     {
         "id": 54,
        "tla":"CPC",
        "name":"Clapham Common",
+       "latitude": 51.46156,
+       "longitude": -0.13802,
        "lines": ["Northern"]
     },
     {
         "id": 55,
        "tla":"CPN",
        "name":"Clapham North",
+       "latitude": 51.46522,
+       "longitude": -0.12950,
        "lines": ["Northern"]
     },
     {
         "id": 56,
        "tla":"CPS",
        "name":"Clapham South",
+       "latitude": 51.45292257,
+       "longitude": -0.147562148,
        "lines": ["Northern"]
     },
     {
         "id": 57,
        "tla":"CFS",
        "name":"Cockfosters",
+       "latitude": 51.65117,
+       "longitude": -0.14811,
        "lines": ["Piccadilly"]
     },
     {
         "id": 58,
        "tla":"COL",
        "name":"Colindale",
+       "latitude": 51.59556,
+       "longitude": -0.24996,
        "lines": ["Northern"]
     },
     {
         "id": 59,
        "tla":"CLW",
        "name":"Colliers Wood",
+       "latitude": 51.41823649,
+       "longitude": -0.17800983,
        "lines": ["Metropolitan", "Northern"]
     },
     {
         "id": 60,
        "tla":"COV",
        "name":"Covent Garden",
+       "latitude": 51.51308,
+       "longitude": -0.12427,
        "lines": ["Piccadilly"]
     },
     {
         "id": 61,
        "tla":"CRO",
        "name":"Crossharbour",
+       "latitude": 51.51308,
+       "longitude": -0.12427,
        "lines": ["Dockland Light"]
     },
     {
         "id": 62,
        "tla":"CRX",
        "name":"Croxley",
+       "latitude": 51.64733268,
+       "longitude": -0.441479115,
        "lines": ["Metropolitan"]
     },
     {
         "id": 63,
        "tla":"CUH",
        "name":"Custom House for ExCeL",
+       "latitude": 51.509622,
+       "longitude": 0.025773,
        "lines": ["Dockland Light"]
     },
     {
         "id": 64,
        "tla":"CUS",
        "name":"Cutty Sark for Maritime Greenwich",
+       "latitude": 51.481944,
+       "longitude": -0.010582,
        "lines": ["Dockland Light"]
     },
     {
         "id": 65,
        "tla":"CYP",
        "name":"Cyprus",
+       "latitude": 51.508527,
+       "longitude": 0.063841,
        "lines": ["Dockland Light"]
     },
     {
         "id": 66,
        "tla":"DGE",
        "name":"Dagenham East",
+       "latitude": 51.54396,
+       "longitude": 0.16439,
        "lines": ["District"]
     },
     {
         "id": 67,
        "tla":"DGH",
        "name":"Dagenham Heathway",
+       "latitude": 51.54173,
+       "longitude": 0.14543,
        "lines": ["District"]
     },
     {
         "id": 68,
        "tla":"DEB",
        "name":"Debden",
+       "latitude": 51.64535,
+       "longitude": 0.08364,
        "lines": ["Central"]
     },
     {
         "id": 69,
        "tla":"EB",
        "name":"Deptford Bridge",
+       "latitude": 51.474477,
+       "longitude": -0.022052,
        "lines": ["Dockland Light"]
     },
     {
         "id": 70,
        "tla":"DER",
        "name":"Devons Road",
+       "latitude": 51.522258,
+       "longitude": -0.018008,
        "lines": ["Dockland Light"]
     },
     {
         "id": 71,
        "tla":"DHL",
        "name":"Dollis Hill",
+       "latitude": 51.55250,
+       "longitude": -0.23884,
        "lines": ["Jubilee"]
     },
     {
         "id": 72,
        "tla":"EBY",
        "name":"Ealing Broadway",
+       "latitude": 51.51482,
+       "longitude": -0.30118,
        "lines": ["Central", "District"]
     },
     {
         "id": 73,
        "tla":"ECM",
        "name":"Ealing Common",
+       "latitude": 51.50997,
+       "longitude": -0.28825,
        "lines": ["District", "Piccadilly"]
     },
     {
         "id": 74,
        "tla":"ECT",
        "name":"Earl\"s Court",
+       "latitude": 51.491521,
+       "longitude": -0.193906,
        "lines": ["District", "Piccadilly"]
     },
     {
         "id": 75,
        "tla":"EAC",
        "name":"East Acton",
+       "latitude": 51.51753,
+       "longitude": -0.24827,
        "lines": ["Central"]
     },
     {
         "id": 76,
        "tla":"EFY",
        "name":"East Finchley",
+       "latitude": 51.5872974705487,
+       "longitude": -0.16495632312818,
        "lines": ["Northern"]
     },
     {
         "id": 77,
        "tla":"EHM",
        "name":"East Ham",
+       "latitude": 51.53931,
+       "longitude": 0.05260,
        "lines": ["District", "Hammersmith"]
     },
     {
         "id": 78,
        "tla":"EAI",
        "name":"East India",
+       "latitude": 51.508684,
+       "longitude": -0.00237,
        "lines": ["Dockland Light"]
     },
     {
         "id": 79,
        "tla":"EPY",
        "name":"East Putney",
+       "latitude": 51.459015,
+       "longitude": -0.211138,
        "lines": ["District"]
     },
     {
         "id": 80,
        "tla":"ETE",
        "name":"Eastcote",
+       "latitude": 51.57676,
+       "longitude": -0.39629,
        "lines": ["Metropolitan", "Piccadilly"]
     },
     {
         "id": 81,
        "tla":"EDG",
        "name":"Edgware",
+       "latitude": 51.61385,
+       "longitude": -0.27515,
        "lines": ["Northern","Circle"]
     },
     {
         "id": 82,
        "tla":"ERB",
        "name":"Edgware Road (Bakerloo)",
+       "latitude": 51.519560,
+       "longitude": -0.169068,
        "lines": ["Bakerloo","Circle"]
     },
     {
         "id": 83,
        "tla":"ERD",
        "name":"Edgware Road (H & C)",
+       "latitude": 51.520195,
+       "longitude": -0.166986,
        "lines": ["District", "Hammersmith"]
     },
     {
         "id": 84,
        "tla":"ELE",
        "name":"Elephant and Castle",
+       "latitude": 51.49467,
+       "longitude": -0.10047,
        "lines": ["Bakerloo", "Northern"]
     },
     {
         "id": 85,
        "tla":"EPK",
        "name":"Elm Park",
+       "latitude": 51.54969,
+       "longitude": 0.19779,
        "lines": ["District"]
     },
     {
         "id": 86,
        "tla":"ELR",
        "name":"Elverson Road",
+       "latitude": 51.468372,
+       "longitude": -0.016816,
        "lines": ["Dockland Light"]
     },
     {
         "id": 87,
        "tla":"EMB",
        "name":"Embankment",
+       "latitude": 51.50717,
+       "longitude": -0.12195,
        "lines": ["Bakerloo", "District", "Hammersmith", "Northern","Circle"]
     },
     {
         "id": 88,
        "tla":"EPP",
        "name":"Epping",
+       "latitude": 51.69365,
+       "longitude": 0.11495,
        "lines": ["Central"]
     },
     {
         "id": 89,
        "tla":"EUS",
        "name":"Euston",
+       "latitude": 51.52774,
+       "longitude": -0.13303,
        "lines": ["Northern", "Victoria"]
     },
     {
         "id": 90,
        "tla":"ESQ",
        "name":"Euston Square",
+       "latitude": 51.52584,
+       "longitude": -0.13570,
        "lines": ["Hammersmith", "Metropolitan","Circle"]
     },
     {
         "id": 91,
        "tla":"FLP",
        "name":"Fairlop",
+       "latitude": 51.59634,
+       "longitude": 0.09125,
        "lines": ["Central"]
     },
     {
         "id": 92,
        "tla":"FAR",
+       "latitude": 51.520362948,
+       "longitude": -0.105126482,
        "name":"Farringdon",
        "lines": ["Hammersmith", "Metropolitan","Circle"]
     },
@@ -555,1254 +739,1672 @@
         "id": 93,
        "tla":"FYC",
        "name":"Finchley Central",
+       "latitude": 51.60102,
+       "longitude": -0.19240,
        "lines": ["Northern"]
     },
     {
         "id": 94,
        "tla":"FRD",
        "name":"Finchley Road",
+       "latitude": 51.546701,
+       "longitude": -0.179867,
        "lines": ["Jubilee", "Metropolitan"]
     },
     {
         "id": 95,
        "tla":"FPK",
        "name":"Finsbury Park",
+       "latitude": 51.56498,
+       "longitude":-0.10543,
        "lines": ["Piccadilly", "Victoria"]
     },
     {
         "id": 96,
        "tla":"FBY",
        "name":"Fulham Broadway",
+       "latitude": 51.48033,
+       "longitude": -0.19488,
        "lines": ["District"]
     },
     {
         "id": 97,
        "tla":"GAR",
        "name":"Gallions Reach",
+       "latitude": 51.509034,
+       "longitude": 0.071775,
        "lines": ["Dockland Light"]
     },
     {
         "id": 98,
        "tla":"GHL",
        "name":"Gants Hill",
+       "latitude": 51.57649,
+       "longitude": 0.06637,
        "lines": ["Central"]
     },
     {
         "id": 99,
        "tla":"GRD",
        "name":"Gloucester Road",
+       "latitude": 51.49408266,
+       "longitude": -0.17295341,
        "lines": ["District", "Hammersmith", "Piccadilly","Circle"]
     },
     {
         "id": 100,
        "tla":"GGR",
        "name":"Golders Green",
+       "latitude": 51.57249,
+       "longitude": -0.19410,
        "lines": ["Northern"]
     },
     {
         "id": 101,
        "tla":"GST",
        "name":"Goodge Street",
+       "latitude": 51.52060,
+       "longitude": -0.13441,
        "lines": ["Northern"]
     },
     {
         "id": 102,
        "tla":"GRH",
        "name":"Grange Hill",
+       "latitude": 51.61326,
+       "longitude": 0.09258,
        "lines": ["Central"]
     },
     {
         "id": 103,
        "tla":"GPS",
        "name":"Great Portland Street",
+       "latitude": 51.52391,
+       "longitude": -0.14397,
        "lines": ["Hammersmith", "Metropolitan","Circle"]
     },
     {
         "id": 104,
        "tla":"GPK",
        "name":"Green Park",
+       "latitude": 51.50674,
+       "longitude": -0.14276,
        "lines": ["Jubilee", "Piccadilly", "Victoria"]
     },
     {
         "id": 105,
        "tla":"GFD",
        "name":"Greenford",
+       "latitude": 51.542346,
+       "longitude": -0.345903,
        "lines": ["Central"]
     },
     {
         "id": 106,
        "tla":"GRE",
        "name":"Greenwich",
+       "latitude": 51.477548,
+       "longitude": -0.014863,
        "lines": ["Dockland Light"]
     },
     {
         "id": 107,
        "tla":"GUN",
        "name":"Gunnersbury",
+       "latitude": 51.49126844,
+       "longitude": -0.275554312,
        "lines": ["District"]
     },
     {
         "id": 108,
        "tla":"HAI",
        "name":"Hainault",
+       "latitude": 51.60288,
+       "longitude": 0.09332,
        "lines": ["Central"]
     },
     {
         "id": 109,
        "tla":"HMS",
        "name":"Hammersmith",
+       "latitude": 51.494190748,
+       "longitude": -0.225964953,
        "lines": ["Hammersmith", "Circle"]
     },
     {
         "id": 110,
        "tla":"HMD",
        "name":"Hammersmith (District and Picc)",
+       "latitude": 51.492328,
+       "longitude": -0.222825,
        "lines": ["District", "Piccadilly"]
     },
     {
         "id": 111,
        "tla":"HMP",
        "name":"Hampstead",
+       "latitude": 51.55645,
+       "longitude": -0.17851,
        "lines": ["Northern"]
     },
     {
         "id": 112,
        "tla":"HLN",
        "name":"Hanger Lane",
+       "latitude": 51.5300,
+       "longitude": -0.2929,
        "lines": ["Central"]
     },
     {
         "id": 113,
        "tla":"HSD",
        "name":"Harlesden",
+       "latitude": 51.53628278,
+       "longitude": -0.257622488,
        "lines": ["Bakerloo"]
     },
     {
         "id": 114,
        "tla":"HAW",
        "name":"Harrow and Wealdstone",
+       "latitude": 51.59205973,
+       "longitude": -0.334725352,
        "lines": ["Bakerloo"]
     },
     {
         "id": 115,
        "tla":"HOH",
        "name":"Harrow on the Hill",
+       "latitude": 51.579335,
+       "longitude": -0.337052,
        "lines": ["Metropolitan"]
     },
     {
         "id": 116,
        "tla":"HTX",
        "name":"Hatton Cross",
+       "latitude": 51.466988,
+       "longitude": -0.423035,
        "lines": ["Piccadilly"]
     },
     {
         "id": 117,
        "tla":"HTF",
        "name":"Heathrow Terminal 4",
+       "latitude": 51.4594777,
+       "longitude": -0.44689658,
        "lines": ["Piccadilly"]
     },
     {
         "id": 118,
        "tla":"HRV",
        "name":"Heathrow Terminal 5",
+       "latitude": 51.4594777,
+       "longitude": -0.44689658,
        "lines": ["Piccadilly"]
     },
     {
         "id": 119,
        "tla":"HRC",
        "name":"Heathrow Terminals 123",
+       "latitude": 51.4712899,
+       "longitude": -0.22653,
        "lines": ["Piccadilly"]
     },
     {
         "id": 120,
        "tla":"HND",
        "name":"Hendon Central",
+       "latitude": 51.58346,
+       "longitude": -0.4527438,
        "lines": ["Northern"]
     },
     {
         "id": 121,
        "tla":"HEQ",
        "name":"Heron Quays",
+       "latitude": 51.503387,
+       "longitude": -0.021954,
        "lines": ["Dockland Light"]
     },
     {
         "id": 122,
        "tla":"HBT",
        "name":"High Barnet",
+       "latitude": 51.6506519031751,
+       "longitude": -0.194138165994553,
        "lines": ["Northern"]
     },
     {
         "id": 123,
        "tla":"HST",
        "name":"High Street Kensington",
+       "latitude": 51.5003459144,
+       "longitude": -0.1923516640,
        "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 124,
        "tla":"HBY",
        "name":"Highbury and Islington",
+       "latitude": 51.54502,
+       "longitude": -0.10752,
        "lines": ["Victoria"]
     },
     {
         "id": 125,
        "tla":"HIG",
        "name":"Highgate",
+       "latitude": 51.57722,
+       "longitude": -0.14553,
        "lines": ["Northern"]
     },
     {
         "id": 126,
        "tla":"HDN",
        "name":"Hillingdon",
+       "latitude": 51.55364,
+       "longitude": -0.45062,
        "lines": ["Metropolitan", "Piccadilly"]
     },
     {
         "id": 127,
        "tla":"HOL",
        "name":"Holborn",
+       "latitude": 51.51711,
+       "longitude": -0.12055,
        "lines": ["Central", "Piccadilly"]
     },
     {
         "id": 128,
        "tla":"HPK",
        "name":"Holland Park",
+       "latitude": 51.50722,
+       "longitude": -0.20553,
        "lines": ["Central"]
     },
     {
         "id": 129,
        "tla":"HRD",
        "name":"Holloway Road",
+       "latitude": 51.55290,
+       "longitude": -0.11278,
        "lines": ["Piccadilly"]
     },
     {
         "id": 130,
        "tla":"HCH",
        "name":"Hornchurch",
+       "latitude": 51.55387,
+       "longitude": 0.21797,
        "lines": ["District"]
     },
     {
         "id": 131,
        "tla":"HNC",
        "name":"Hounslow Central",
+       "latitude": 51.471290,
+       "longitude": -0.365853,
        "lines": ["Piccadilly"]
     },
     {
         "id": 132,
        "tla":"HNE",
        "name":"Hounslow East",
+       "latitude": 51.473540,
+       "longitude": -0.356000,
        "lines": ["Piccadilly"]
     },
     {
         "id": 133,
        "tla":"HNW",
        "name":"Hounslow West",
+       "latitude": 51.473689,
+       "longitude": -0.386471,
        "lines": ["Piccadilly"]
     },
     {
         "id": 134,
        "tla":"HPC",
        "name":"Hyde Park Corner",
+       "latitude": 51.50313,
+       "longitude": -0.15278,
        "lines": ["Piccadilly"]
     },
     {
         "id": 135,
        "tla":"ICK",
        "name":"Ickenham",
+       "latitude": 51.56147,
+       "longitude": -0.44257,
        "lines": ["Metropolitan", "Piccadilly"]
     },
     {
         "id": 136,
        "tla":"ISG",
        "name":"Island Gardens",
-       "lines": ["Metropolitan", "Piccadilly"]
+       "latitude": 51.488001,
+       "longitude": -0.011039,
+       "lines": ["Dockland Light"]
     },
     {
         "id": 137,
        "tla":"KEN",
        "name":"Kennington",
+       "latitude": 51.48823,
+       "longitude": -0.10587,
        "lines": ["Metropolitan", "Piccadilly"]
     },
     {
         "id": 138,
        "tla":"KGN",
        "name":"Kensal Green",
+       "latitude": 51.53060655,
+       "longitude": -0.224253545,
        "lines": ["Metropolitan", "Piccadilly"]
     },
     {
         "id": 139,
        "tla":"OLY",
        "name":"Kensington (Olympia)",
+       "latitude": 51.49675,
+       "longitude": -0.20931,
        "lines": ["District"]
     },
     {
         "id": 140,
        "tla":"KTN",
        "name":"Kentish Town",
+       "latitude": 51.55046,
+       "longitude": -0.14067,
        "lines": ["Northern"]
     },
     {
         "id": 141,
        "tla":"KNT",
        "name":"Kenton",
+       "latitude": 51.58173809,
+       "longitude": -0.316870809,
        "lines": ["Bakerloo"]
     },
     {
         "id": 142,
        "tla":"KEW",
        "name":"Kew Gardens",
+       "latitude": 51.47725641,
+       "longitude": -0.284980014,
        "lines": ["District"]
     },
     {
         "id": 143,
        "tla":"KIL",
        "name":"Kilburn",
+       "latitude": 51.5471715,
+       "longitude": -0.2050020,
        "lines": ["Jubilee"]
     },
     {
         "id": 144,
        "tla":"KPK",
        "name":"Kilburn Park",
+       "latitude": 51.53495818,
+       "longitude": -0.193963023,
        "lines": ["Bakerloo"]
     },
     {
         "id": 145,
        "tla":"KGV",
        "name":"King George V",
+       "latitude": 51.502009,
+       "longitude": -0.062206,
        "lines": ["Dockland Light"]
     },
     {
         "id": 146,
        "tla":"KXX",
        "name":"King\"s Cross St Pancras",
+       "latitude": 51.53057,
+       "longitude": -0.12399,
        "lines": ["Hammersmith", "Metropolitan", "Northern", "Piccadilly", "Victoria","Circle"]
     },
     {
         "id": 147,
        "tla":"KBY",
        "name":"Kingsbury",
+       "latitude": 51.58422,
+       "longitude": -0.27880,
        "lines": ["Jubilee"]
     },
     {
         "id": 148,
        "tla":"KNB",
        "name":"Knightsbridge",
+       "latitude": 51.50169,
+       "longitude": -0.16030,
        "lines": ["Piccadilly"]
     },
     {
         "id": 149,
        "tla":"LAM",
        "name":"Lambeth North",
+       "latitude": 51.49894,
+       "longitude": -0.11216,
        "lines": ["Bakerloo"]
     },
     {
         "id": 150,
        "tla":"LAN",
        "name":"Lancaster Gate",
+       "latitude": 51.512083,
+       "longitude": -0.175067,
        "lines": ["Central"]
     },
     {
         "id": 151,
        "tla":"LAP",
        "name":"Langdon Park",
-       "lines": ["Bakerloo"]
+       "latitude": 51.515173,
+       "longitude": 0.014119,
+       "lines": ["Dockland Light"]
     },
     {
         "id": 152,
        "tla":"LSQ",
        "name":"Leicester Square",
+       "latitude": 51.51148,
+       "longitude": -0.12849,
        "lines": ["Northern", "Piccadilly"]
     },
     {
         "id": 153,
        "tla":"LEW",
        "name":"Lewisham",
+       "latitude": 51.4653,
+       "longitude": 0.0133,
        "lines": ["Dockland Light"]
     },
     {
         "id": 154,
        "tla":"LEY",
        "name":"Leyton",
+       "latitude": 51.556483,
+       "longitude": -0.005669,
        "lines": ["Central"]
     },
     {
         "id": 155,
        "tla":"LYS",
        "name":"Leytonstone",
+       "latitude": 51.56828,
+       "longitude": 0.00739,
        "lines": ["Central"]
     },
     {
         "id": 156,
        "tla":"LIM",
        "name":"Limehouse",
+       "latitude": 51.5158,
+       "longitude": 0.0318,
        "lines": ["Dockland Light"]
     },
     {
         "id": 157,
        "tla":"LST",
        "name":"Liverpool Street",
+       "latitude": 51.517675,
+       "longitude": -0.0824580,
        "lines": ["Central", "Hammersmith", "Metropolitan","Circle"]
     },
     {
         "id": 158,
        "tla":"LON",
        "name":"London Bridge",
+       "latitude": 51.505353,
+       "longitude": -0.084826,
        "lines": ["Jubilee", "Northern"]
     },
     {
         "id": 159,
        "tla":"LCA",
        "name":"London City Airport",
+       "latitude": 51.5032,
+       "longitude": 0.0532,
        "lines": ["Dockland Light"]
     },
     {
         "id": 160,
        "tla":"LTN",
        "name":"Loughton",
+       "latitude": 51.64170,
+       "longitude": 0.05583,
        "lines": ["Central"]
     },
     {
         "id": 161,
        "tla":"MDV",
        "name":"Maida Vale",
+       "latitude": 51.52989409,
+       "longitude": -0.185888819,
        "lines": ["Bakerloo"]
     },
     {
         "id": 162,
        "tla":"MNR",
        "name":"Manor House",
+       "latitude": 51.57038,
+       "longitude": -0.09601,
        "lines": ["Piccadilly"]
     },
     {
         "id": 163,
        "tla":"MAN",
        "name":"Mansion House",
+       "latitude": 51.51256,
+       "longitude": -0.09397,
        "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 164,
        "tla":"MAR",
        "name":"Marble Arch",
+       "latitude": 51.5135970,
+       "longitude": -0.15869195,
        "lines": ["Central"]
     },
     {
         "id": 165,
        "tla":"MYB",
        "name":"Marylebone",
+       "latitude": 51.522660,
+       "longitude": -0.162996,
        "lines": ["Bakerloo"]
     },
     {
         "id": 166,
        "tla":"MLE",
        "name":"Mile End",
+       "latitude": 51.525306,
+       "longitude": -0.033471,
        "lines": ["Central", "District", "Hammersmith"]
     },
     {
         "id": 167,
        "tla":"MHE",
        "name":"Mill Hill East",
+       "latitude": 51.60892,
+       "longitude": -0.20965,
        "lines": ["Northern"]
     },
     {
         "id": 168,
        "tla":"MON",
        "name":"Monument",
+       "latitude": 51.510165,
+       "longitude": -0.085991,
        "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 169,
        "tla":"MPK",
        "name":"Moor Park",
+       "latitude": 51.62970512,
+       "longitude": -0.432070848,
        "lines": ["Metropolitan"]
     },
     {
         "id": 170,
        "tla":"MGT",
        "name":"Moorgate",
+       "latitude": 51.51817,
+       "longitude": -0.08859,
        "lines": ["Hammersmith", "Metropolitan", "Northern","Circle"]
     },
     {
         "id": 171,
        "tla":"MOR",
        "name":"Morden",
+       "latitude": 51.40222413,
+       "longitude": -0.194599126,
        "lines": ["Northern"]
     },
     {
         "id": 172,
        "tla":"MCR",
        "name":"Mornington Crescent",
+       "latitude": 51.53427,
+       "longitude": -0.13901,
        "lines": ["Northern"]
     },
     {
         "id": 173,
        "tla":"MUD",
        "name":"Mudchute",
-       "lines": ["Northern"]
+       "latitude": 51.4912,
+       "longitude": 0.0150,
+       "lines": ["Dockland Light"]
     },
     {
         "id": 174,
        "tla":"NEA",
        "name":"Neasden",
+       "latitude": 51.55427,
+       "longitude": -0.25042,
        "lines": ["Jubilee"]
     },
     {
         "id": 175,
        "tla":"NEP",
        "name":"Newbury Park",
+       "latitude": 51.57565,
+       "longitude": 0.08927,
        "lines": ["Central"]
     },
     {
         "id": 176,
        "tla":"NAC",
        "name":"North Acton",
+       "latitude": 51.52370,
+       "longitude": -0.26019,
        "lines": ["Central"]
     },
     {
         "id": 177,
        "tla":"NEL",
        "name":"North Ealing",
+       "latitude": 51.51807,
+       "longitude": -0.28838,
        "lines": ["Piccadilly"]
     },
     {
         "id": 178,
        "tla":"NGW",
        "name":"North Greenwich",
+       "latitude": 51.50056,
+       "longitude": 0.00360,
        "lines": ["Jubilee"]
     },
     {
         "id": 179,
        "tla":"NHR",
        "name":"North Harrow",
+       "latitude": 51.58503612,
+       "longitude": -0.362595264,
        "lines": ["Metropolitan"]
     },
     {
         "id": 180,
        "tla":"NWM",
        "name":"North Wembley",
+       "latitude": 51.56258091,
+       "longitude": -0.304072648,
        "lines": ["Bakerloo"]
     },
     {
         "id": 181,
        "tla":"NFD",
        "name":"Northfields",
+       "latitude": 51.499856,
+       "longitude": -0.313188,
        "lines": ["Piccadilly"]
     },
     {
         "id": 182,
        "tla":"NHT",
        "name":"Northolt",
+       "latitude": 51.548054,
+       "longitude": -0.368257,
        "lines": ["Central"]
     },
     {
         "id": 183,
        "tla":"NWP",
        "name":"Northwick Park",
+       "latitude": 51.57850117,
+       "longitude": -0.317857023,
        "lines": ["Metropolitan"]
     },
     {
         "id": 184,
        "tla":"NWD",
        "name":"Northwood",
+       "latitude": 51.61098984,
+       "longitude": -0.423584422,
        "lines": ["Metropolitan"]
     },
     {
         "id": 185,
        "tla":"NWH",
        "name":"Northwood Hills",
+       "latitude": 51.60043795,
+       "longitude": -0.408812575,
        "lines": ["Metropolitan"]
     },
     {
         "id": 186,
        "tla":"NHG",
        "name":"Notting Hill Gate",
+       "latitude": 51.509028,
+       "longitude": -0.1962847,
        "lines": ["Central","Circle"]
     },
     {
         "id": 187,
        "tla":"OAK",
        "name":"Oakwood",
+       "latitude": 51.64739,
+       "longitude": -0.13192,
        "lines": ["Piccadilly"]
     },
     {
         "id": 188,
        "tla":"OLD",
        "name":"Old Street",
+       "latitude": 51.52618,
+       "longitude": -0.08751,
        "lines": ["Northern"]
     },
     {
         "id": 189,
        "tla":"OST",
        "name":"Osterley",
+       "latitude": 51.481569,
+       "longitude": -0.351960,
        "lines": ["Piccadilly"]
     },
     {
         "id": 190,
        "tla":"OVL",
        "name":"Oval",
+       "latitude": 51.48214,
+       "longitude": -0.11284,
        "lines": ["Northern"]
     },
     {
         "id": 191,
        "tla":"OXC",
        "name":"Oxford Circus",
+       "latitude": 51.51517,
+       "longitude": -0.14119,
        "lines": ["Bakerloo", "Central", "Victoria"]
     },
     {
         "id": 192,
        "tla":"PAD",
        "name":"Paddington",
+       "latitude": 51.5151846554,
+       "longitude": -0.17553880792,
        "lines": ["Bakerloo", "Hammersmith","Circle"]
     },
     {
         "id": 193,
        "tla":"PRY",
        "name":"Park Royal",
+       "latitude": 51.52671,
+       "longitude": -0.28417,
        "lines": ["Piccadilly"]
     },
     {
         "id": 194,
        "tla":"PGR",
        "name":"Parsons Green",
+       "latitude": 51.47488,
+       "longitude": -0.20205,
        "lines": ["District"]
     },
     {
         "id": 195,
        "tla":"PER",
        "name":"Perivale",
+       "latitude": 51.536673,
+       "longitude": -0.32391,
        "lines": ["Central"]
     },
     {
         "id": 196,
        "tla":"PIC",
        "name":"Piccadilly Circus",
+       "latitude": 51.51022,
+       "longitude": -0.13392,
        "lines": ["Bakerloo", "Piccadilly"]
     },
     {
         "id": 197,
        "tla":"PIM",
        "name":"Pimlico",
+       "latitude": 51.489081,
+       "longitude": -0.133037,
        "lines": ["Victoria"]
     },
     {
         "id": 198,
        "tla":"PIN",
        "name":"Pinner",
+       "latitude": 51.59270271,
+       "longitude": -0.380539158,
        "lines": ["Metropolitan"]
     },
     {
         "id": 199,
        "tla":"PLW",
        "name":"Plaistow",
+       "latitude": 51.53122,
+       "longitude": 0.01659,
        "lines": ["District", "Hammersmith"]
     },
     {
         "id": 200,
        "tla":"PDK",
        "name":"Pontoon Dock",
+       "latitude": 51.502222,
+       "longitude": 0.031944,
        "lines": ["Docklads Light"]
     },
     {
         "id": 201,
        "tla":"POP",
        "name":"Poplar",
+       "latitude": 51.5077,
+       "longitude": 0.0174,
        "lines": ["Dockland Light"]
     },
     {
         "id": 202,
        "tla":"PRR",
        "name":"Prince Regent",
+       "latitude": 51.5093,
+       "longitude": 0.0337,
        "lines": ["Dockland Light"]
     },
     {
         "id": 203,
        "tla":"PML",
        "name":"Pudding Mill Lane",
+       "latitude": 51.5341,
+       "longitude": 0.0138,
        "lines": ["Dockland Light"]
     },
     {
         "id": 204,
        "tla":"PUT",
        "name":"Putney Bridge",
+       "latitude": 51.46868,
+       "longitude": -0.2088141,
        "lines": ["District"]
     },
     {
         "id": 205,
        "tla":"QPK",
-       "name":"Queen\"s Park",
+       "name":"Queens Park",
+       "latitude": 51.534179,
+       "longitude": -0.205257721,
        "lines": ["Bakerloo"]
     },
     {
         "id": 206,
        "tla":"QBY",
        "name":"Queensbury",
+       "latitude": 51.59437,
+       "longitude": -0.28655,
        "lines": ["Jubilee"]
     },
     {
         "id": 207,
        "tla":"QWY",
        "name":"Queensway",
+       "latitude": 51.510484,
+       "longitude": -0.187050,
        "lines": ["Central"]
     },
     {
         "id": 208,
        "tla":"RCP",
        "name":"Ravenscourt Park",
+       "latitude": 51.494190,
+       "longitude": -0.235600,
        "lines": ["District"]
     },
     {
         "id": 209,
        "tla":"RLN",
        "name":"Rayners Lane",
+       "latitude": 51.57534,
+       "longitude": -0.37240,
        "lines": ["Metropolitan", "Piccadilly"]
     },
     {
         "id": 210,
        "tla":"RED",
        "name":"Redbridge",
+       "latitude": 51.57618,
+       "longitude": 0.04542,
        "lines": ["Central"]
     },
     {
         "id": 211,
        "tla":"RPK",
-       "name":"Regent\"s Park",
+       "name":"Regents Park",
+       "latitude": 51.52344,
+       "longitude": -0.14713,
        "lines": ["Bakerloo"]
     },
     {
         "id": 212,
        "tla":"RMD",
        "name":"Richmond",
+       "latitude": 51.46343247,
+       "longitude": -0.302033247,
        "lines": ["District"]
     },
     {
         "id": 213,
        "tla":"RKY",
        "name":"Rickmansworth",
+       "latitude": 51.6403,
+       "longitude": 0.4736,
        "lines": ["Metropolitan"]
     },
     {
         "id": 214,
        "tla":"ROD",
        "name":"Roding Valley",
+       "latitude": 51.61691,
+       "longitude": 0.04264,
        "lines": ["Central"]
     },
     {
         "id": 215,
        "tla":"ROA",
        "name":"Royal Albert",
-       "lines": ["Central"]
+       "latitude": 51.5083,
+       "longitude": 0.0459,
+       "lines": ["Dockland Light"]
     },
     {
         "id": 216,
        "tla":"ROV",
        "name":"Royal Victoria",
-       "lines": ["Central"]
+       "latitude": 51.5092,
+       "longitude": 0.0187,
+       "lines": ["Dockland Light"]
     },
     {
         "id": 217,
        "tla":"RUI",
        "name":"Ruislip",
+       "latitude": 51.57146,
+       "longitude": -0.42157,
        "lines": ["Metropolitan", "Piccadilly"]
     },
     {
         "id": 218,
        "tla":"RUG",
        "name":"Ruislip Gardens",
+       "latitude": 51.560711,
+       "longitude": -0.410587,
        "lines": ["Central"]
     },
     {
         "id": 219,
        "tla":"RUM",
        "name":"Ruislip Manor",
+       "latitude": 51.57349,
+       "longitude": -0.41185,
        "lines": ["Metropolitan", "Piccadilly"]
     },
     {
         "id": 220,
        "tla":"RSQ",
        "name":"Russell Square",
+       "latitude": 51.523243,
+       "longitude": -0.124336,
        "lines": ["Piccadilly"]
     },
     {
         "id": 221,
        "tla":"SVS",
        "name":"Seven Sisters",
+       "latitude": 51.58318,
+       "longitude": -0.07495,
        "lines": ["Victoria"]
     },
     {
         "id": 222,
        "tla":"SHA",
        "name":"Shadwell",
+       "latitude": 51.51115,
+       "longitude": -0.05693,
        "lines": ["Dockland Light"]
     },
     {
         "id": 223,
        "tla":"SBC",
-       "name":"Shepherd\"s Bush",
+       "name":"Shepherds Bush",
+       "latitude": 51.50474,
+       "longitude": -0.21881,
        "lines": ["Central","Circle"]
     },
     {
         "id": 224,
        "tla":"SSQ",
        "name":"Sloane Square",
+       "latitude": 51.49258474,
+       "longitude": -0.156090904,
        "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 225,
        "tla":"SNB",
        "name":"Snaresbrook",
+       "latitude": 51.58002,
+       "longitude": 0.02133,
        "lines": ["Central"]
     },
     {
         "id": 226,
        "tla":"SEL",
        "name":"South Ealing",
+       "latitude": 51.500801,
+       "longitude": -0.307856,
        "lines": ["Piccadilly"]
     },
     {
         "id": 227,
        "tla":"SHR",
        "name":"South Harrow",
+       "latitude": 51.56461,
+       "longitude": -0.35210,
        "lines": ["Piccadilly"]
     },
     {
         "id": 228,
        "tla":"SKN",
        "name":"South Kensington",
+       "latitude": 51.494066,
+       "longitude": -0.172791,
        "lines": ["District", "Hammersmith", "Piccadilly","Circle"]
     },
     {
         "id": 229,
        "tla":"SKT",
        "name":"South Kenton",
+       "latitude": 51.57044666,
+       "longitude": -0.308566354,
        "lines": ["Bakerloo"]
     },
     {
         "id": 230,
        "tla":"SOQ",
        "name":"South Quay",
+       "latitude": 51.50104,
+       "longitude": 0.017303,
        "lines": ["Dockland Light"]
     },
     {
         "id": 231,
        "tla":"SRP",
        "name":"South Ruislip",
+       "latitude": 51.556795,
+       "longitude": -0.398708,
        "lines": ["Central"]
     },
     {
         "id": 232,
        "tla":"SWM",
        "name":"South Wimbledon",
+       "latitude": 51.41543048,
+       "longitude": -0.192262754,
        "lines": ["Northern"]
     },
     {
         "id": 233,
        "tla":"SWF",
        "name":"South Woodford",
+       "latitude": 51.59088,
+       "longitude": 0.02726,
        "lines": ["Central"]
     },
     {
         "id": 234,
        "tla":"SFS",
        "name":"Southfields",
+       "latitude": 51.444941,
+       "longitude": -0.206466,
        "lines": ["District"]
     },
     {
         "id": 235,
        "tla":"SGT",
        "name":"Southgate",
+       "latitude": 51.63240,
+       "longitude": -0.12765,
        "lines": ["Piccadilly"]
     },
     {
         "id": 236,
        "tla":"SWK",
        "name":"Southwark",
+       "latitude": 51.50384,
+       "longitude": -0.10478,
        "lines": ["Jubilee"]
     },
     {
         "id": 237,
        "tla":"SJW",
-       "name":"St John\"s Wood",
+       "name":"St Johns Wood",
+       "latitude": 51.53472,
+       "longitude": -0.17428,
        "lines": ["Jubilee"]
     },
     {
         "id": 238,
        "tla":"STP",
-       "name":"St Paul\"s",
+       "name":"St Pauls",
+       "latitude": 51.515285,
+       "longitude": -0.097598,
        "lines": ["Central"]
     },
     {
         "id": 239,
        "tla":"SJP",
-       "name":"St. James\"s Park",
+       "name":"St. James Park",
+       "latitude": 51.4994,
+       "longitude": 0.1344,
        "lines": ["District", "Hammersmith"]
     },
     {
         "id": 240,
        "tla":"STB",
        "name":"Stamford Brook",
+       "latitude": 51.494935,
+       "longitude": -0.246190,
        "lines": ["District"]
     },
     {
         "id": 241,
        "tla":"STA",
        "name":"Stanmore",
+       "latitude": 51.61895,
+       "longitude": -0.30241,
        "lines": ["Jubilee"]
     },
     {
         "id": 242,
        "tla":"STL",
        "name":"Star Lane",
+       "latitude": 51.5207,
+       "longitude": 0.0042,
        "lines": ["Dockland Light"]
     },
     {
         "id": 243,
        "tla":"STG",
        "name":"Stepney Green",
+       "latitude": 51.521884,
+       "longitude": -0.046546,
        "lines": ["Piccadilly"]
     },
     {
         "id": 244,
        "tla":"STK",
        "name":"Stockwell",
+       "latitude": 51.47224,
+       "longitude": -0.12270,
        "lines": ["Northern", "Victoria"]
     },
     {
         "id": 245,
        "tla":"SPK",
        "name":"Stonebridge Park",
+       "latitude": 51.54402388,
+       "longitude": -0.275978856,
        "lines": ["Bakerloo"]
     },
     {
         "id": 246,
        "tla":"SFD",
        "name":"Stratford",
+       "latitude": 51.541208,
+       "longitude": -0.003776,
        "lines": ["Central", "Jubilee"]
     },
     {
         "id": 247,
        "tla":"SHS",
        "name":"Stratford High Street",
+       "latitude": 51.541208,
+       "longitude": -0.003776,
        "lines": ["Dockland Light"]
     },
     {
         "id": 248,
        "tla":"STI",
        "name":"Stratford International",
+       "latitude": 51.541208,
+       "longitude": -0.003776,
        "lines": ["Dockland Light"]
     },
     {
         "id": 249,
        "tla":"SHL",
        "name":"Sudbury Hill",
+       "latitude": 51.556998,
+       "longitude": -0.335949,
        "lines": ["Piccadilly"]
     },
     {
         "id": 250,
        "tla":"STN",
        "name":"Sudbury Town",
+       "latitude": 51.55093,
+       "longitude": -0.31598,
        "lines": ["Piccadilly"]
     },
     {
         "id": 251,
        "tla":"SWC",
        "name":"Swiss Cottage",
+       "latitude": 51.54333,
+       "longitude": -0.17436,
        "lines": ["Jubilee"]
     },
     {
         "id": 252,
        "tla":"TEM",
        "name":"Temple",
+       "latitude": 51.51114,
+       "longitude": -0.11341,
        "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 253,
        "tla":"THB",
        "name":"Theydon Bois",
+       "latitude": 51.67246,
+       "longitude": 0.10354,
        "lines": ["Central"]
     },
     {
         "id": 254,
        "tla":"TBE",
        "name":"Tooting Bec",
+       "latitude": 51.43578971,
+       "longitude": -0.159635693,
        "lines": ["Northern"]
     },
     {
         "id": 255,
        "tla":"TBY",
        "name":"Tooting Broadway",
+       "latitude": 51.42780008,
+       "longitude": -0.167910811,
        "lines": ["Northern"]
     },
     {
         "id": 256,
        "tla":"TCR",
        "name":"Tottenham Court Road",
+       "latitude": 51.51640,
+       "longitude": -0.13027,
        "lines": ["Central", "Northern"]
     },
     {
         "id": 257,
        "tla":"TTH",
        "name":"Tottenham Hale",
+       "latitude": 51.588878,
+       "longitude": -0.059808,
        "lines": ["Victoria"]
     },
     {
         "id": 258,
        "tla":"TOT",
        "name":"Totteridge and Whetstone",
+       "latitude": 51.63022,
+       "longitude": -0.17917,
        "lines": ["Northern"]
     },
     {
         "id": 259,
        "tla":"TOG",
        "name":"Tower Gateway",
+       "latitude": 51.5106,
+       "longitude": 0.0738,
        "lines": ["Dockland Light"]
     },
     {
         "id": 260,
        "tla":"THL",
        "name":"Tower Hill",
+       "latitude": 51.509910,
+       "longitude": -0.076813,
        "lines": ["District", "Hammersmith","Circle"]
     },
     {
         "id": 261,
        "tla":"TPK",
        "name":"Tufnell Park",
+       "latitude": 51.55663,
+       "longitude": -0.13813,
        "lines": ["Northern"]
     },
     {
         "id": 262,
        "tla":"TGR",
        "name":"Turnham Green",
+       "latitude": 51.495143,
+       "longitude": -0.254060,
        "lines": ["District", "Piccadilly"]
     },
     {
         "id": 263,
        "tla":"TPL",
        "name":"Turnpike Lane",
+       "latitude": 51.59031,
+       "longitude": -0.10308,
        "lines": ["Piccadilly"]
     },
     {
         "id": 264,
        "tla":"UPM",
        "name":"Upminster",
+       "latitude": 51.55925,
+       "longitude": 0.25177,
        "lines": ["District"]
     },
     {
         "id": 265,
        "tla":"UPB",
        "name":"Upminster Bridge",
+       "latitude": 51.55847,
+       "longitude": 0.23509,
        "lines": ["District"]
     },
     {
         "id": 266,
        "tla":"UPY",
        "name":"Upney",
+       "latitude": 51.53824,
+       "longitude": 0.09998,
        "lines": ["District"]
     },
     {
         "id": 267,
        "tla":"UPK",
        "name":"Upton Park",
+       "latitude": 51.53514,
+       "longitude": 0.03373,
        "lines": ["District", "Hammersmith"]
     },
     {
         "id": 268,
        "tla":"UXB",
        "name":"Uxbridge",
+       "latitude": 51.54687,
+       "longitude": -0.47725,
        "lines": ["Metropolitan", "Piccadilly"]
     },
     {
         "id": 269,
        "tla":"VUX",
        "name":"Vauxhall",
+       "latitude": 51.48603,
+       "longitude": -0.12369,
        "lines": ["Victoria"]
     },
     {
         "id": 270,
        "tla":"VIC",
        "name":"Victoria",
+       "latitude": 51.49662869,
+       "longitude": -0.14400853,
        "lines": ["District", "Hammersmith", "Victoria","Circle"]
     },
     {
         "id": 271,
        "tla":"WAL",
        "name":"Walthamstow Central",
+       "latitude": 51.58293,
+       "longitude": -0.01996,
        "lines": ["Victoria"]
     },
     {
         "id": 272,
        "tla":"WAN",
        "name":"Wanstead",
+       "latitude": 51.57565,
+       "longitude": 0.02864,
        "lines": ["Central"]
     },
     {
         "id": 273,
        "tla":"WST",
        "name":"Warren Street",
+       "latitude": 51.52450,
+       "longitude": -0.13810,
        "lines": ["Northern", "Victoria"]
     },
     {
         "id": 274,
        "tla":"WAR",
        "name":"Warwick Avenue",
+       "latitude": 51.52329728,
+       "longitude": -0.183777837,
        "lines": ["Bakerloo"]
     },
     {
         "id": 275,
        "tla":"WLO",
        "name":"Waterloo",
+       "latitude": 51.50322,
+       "longitude": -0.11328,
        "lines": ["Bakerloo", "Jubilee", "Northern", "Waterloo"]
     },
     {
         "id": 276,
        "tla":"WAT",
        "name":"Watford",
+       "latitude": 51.65741058,
+       "longitude": -0.41745306,
        "lines": ["Metropolitan"]
     },
     {
         "id": 277,
        "tla":"WEM",
        "name":"Wembley Central",
+       "latitude": 51.55122817,
+       "longitude": -0.29577538,
        "lines": ["Bakerloo"]
     },
     {
         "id": 278,
        "tla":"WPK",
        "name":"Wembley Park",
+       "latitude": 51.56355598,
+       "longitude": -0.279770242,
        "lines": ["Jubilee", "Metropolitan"]
     },
     {
         "id": 279,
        "tla":"WAC",
        "name":"West Acton",
+       "latitude": 51.51818,
+       "longitude": -0.28064,
        "lines": ["Central"]
     },
     {
         "id": 280,
        "tla":"WBT",
        "name":"West Brompton",
+       "latitude": 51.48681,
+       "longitude": -0.19475,
        "lines": ["District"]
     },
     {
         "id": 281,
        "tla":"WFY",
        "name":"West Finchley",
+       "latitude": 51.60922281219,
+       "longitude": -0.188711152265457,
        "lines": ["Northern"]
     },
     {
         "id": 282,
        "tla":"WHM",
        "name":"West Ham",
+       "latitude": 51.527917,
+       "longitude": 0.004141,
        "lines": ["District", "Hammersmith", "Jubilee"]
     },
     {
         "id": 283,
        "tla":"WEH",
        "name":"West Ham",
+       "latitude": 51.527917,
+       "longitude": 0.004141,
        "lines": ["Bakerloo"]
     },
     {
         "id": 284,
        "tla":"WHD",
        "name":"West Hampstead",
+       "latitude": 51.54657,
+       "longitude": -0.19055,
        "lines": ["Jubilee"]
     },
     {
         "id": 285,
        "tla":"WHR",
        "name":"West Harrow",
+       "latitude": 51.5795432,
+       "longitude": -0.353144584,
        "lines": ["Metropolitan"]
     },
     {
         "id": 286,
        "tla":"WIQ",
        "name":"West India Quay",
+       "latitude": 51.5067,
+       "longitude": 0.0203,
        "lines": ["Dockland Light"]
     },
     {
         "id": 287,
        "tla":"WKN",
        "name":"West Kensington",
+       "latitude": 51.490850,
+       "longitude": -0.205320,
        "lines": ["District"]
     },
     {
         "id": 288,
        "tla":"WRP",
        "name":"West Ruislip",
+       "latitude": 51.569324,
+       "longitude": -0.436740,
        "lines": ["Central"]
     },
     {
         "id": 289,
        "tla":"WST",
        "name":"West Silvertown",
-       "lines": ["Northern", "Victoria"]
+       "latitude": 51.5030,
+       "longitude": 0.0227,
+       "lines": ["Dockland Light"]
     },
     {
         "id": 290,
        "tla":"WES",
        "name":"Westferry",
+       "latitude": 51.509372,
+       "longitude": 0.026697,
        "lines": ["Dockland Light"]
     },
     {
         "id": 291,
        "tla":"WMS",
        "name":"Westminster",
+       "latitude": 51.50121,
+       "longitude": -0.12489,
        "lines": ["District", "Hammersmith", "Jubilee","Circle"]
     },
     {
         "id": 292,
        "tla":"WCT",
        "name":"White City",
+       "latitude": 51.512206,
+       "longitude": -0.224226,
        "lines": ["Central"]
     },
     {
         "id": 293,
        "tla":"WCL",
        "name":"Whitechapel",
+       "latitude": 51.51946,
+       "longitude": -0.05951,
        "lines": ["District", "Hammersmith"]
     },
     {
         "id": 294,
        "tla":"WLG",
        "name":"Willesden Green",
+       "latitude": 51.54919,
+       "longitude": -0.22106,
        "lines": ["Jubilee"]
     },
     {
         "id": 295,
        "tla":"WJN",
        "name":"Willesden Junction",
+       "latitude": 51.53032031,
+       "longitude": -0.229378995,
        "lines": ["Bakerloo"]
     },
     {
         "id": 296,
        "tla":"WDN",
        "name":"Wimbledon",
+       "latitude": 51.42200,
+       "longitude": -0.20544,
        "lines": ["District"]
     },
     {
         "id": 297,
        "tla":"WMP",
        "name":"Wimbledon Park",
+       "latitude": 51.43391,
+       "longitude":-0.19864,
        "lines": ["District"]
     },
     {
         "id": 298,
        "tla":"WGN",
        "name":"Wood Green",
+       "latitude": 51.59709,
+       "longitude": -0.10939,
        "lines": ["Piccadilly"]
     },
     {
         "id": 299,
        "tla":"WFD",
        "name":"Woodford",
+       "latitude": 51.60582,
+       "longitude": 0.03328,
        "lines": ["Central"]
     },
     {
         "id": 300,
        "tla":"WSP",
        "name":"Woodside Park",
+       "latitude": 51.6181717295887,
+       "longitude": -0.185578887883903,
        "lines": ["Northern"]
     },
     {
         "id": 301,
        "tla":"WOA",
        "name":"Woolwich Arsenal",
+       "latitude": 51.490,
+       "longitude": 0.069,
        "lines": ["Dockland Light"]
     }
  ]

@@ -19,7 +19,18 @@ struct Stations: Codable, Identifiable {
     
     public var tla: String
     public var name:    String
+    public var latitude: Double
+    public var longitude: Double
     public var lines:   [String]
 
         
+}
+
+
+class CoordinateLongLat: ObservableObject {
+    
+    @Published var name = ""
+    @Published var latitude = 0.0
+    @Published var longitude = 0.0
+    
 }

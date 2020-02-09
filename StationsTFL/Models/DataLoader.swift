@@ -22,10 +22,7 @@ public class DataLoader: ObservableObject {
         
         //Decode File
         decodeJSONFile()
-        
-        //Sorted Data
-        //sortData()
-        
+ 
         
     }
     
@@ -36,7 +33,7 @@ public class DataLoader: ObservableObject {
 func decodeJSONFile() {
     
     //File URL using if let to prevent crashes
-    if let fileLocation = Bundle.main.url(forResource: "TFLStations", withExtension: "json") {
+    if let fileLocation = Bundle.main.url(forResource: "TFLStationsV2", withExtension: "json") {
         
         //Do try catch
         
@@ -73,16 +70,6 @@ func decodeJSONFile() {
     
     }//Function decoder closure
     
-  /*
-    //Function to sort data
-    func sortData() {
-        
-        //Sort Data Station lines
-        self.dataStructure = self.dataStructure.sorted(by: {$0.lines == $1.lines})
-        
-        
-    }
-    */
     
     
     

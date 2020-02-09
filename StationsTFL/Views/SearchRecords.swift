@@ -17,8 +17,15 @@ struct SearchRecords: View {
     //Json Data
     @ObservedObject var allStations = DataLoader()
     
+ 
+    
     //Variable to take read search
     @State private var searchStation = ""
+
+    
+    //Environment Variable
+    @EnvironmentObject var mapCoordinates: CoordinateLongLat
+   
     
     
     
@@ -43,9 +50,34 @@ struct SearchRecords: View {
                                             
                                            
                                             VStack(alignment: .leading, spacing: 10) {
-                                                     Text("\(station.name)")
-                                                        .foregroundColor(Color.green)
-                                            
+                                                
+                                                HStack {
+                                                    Text("\(station.name)")
+                                                        .onTapGesture {
+                                                            
+                                                            
+                                                            self.mapCoordinates.latitude = station.latitude
+                                                            self.mapCoordinates.longitude = station.longitude
+                                                            self.mapCoordinates.name = station.name
+                                                            
+                                                            
+                                                    }
+                                                    
+                                                    NavigationLink(destination: MapView().edgesIgnoringSafeArea(.all)) {
+                                                       EmptyView()
+                                                    
+                                                       
+                                                    }
+                                                    
+                                               
+                                                    
+                                                  
+                                           
+                                                    
+                                                }.foregroundColor(Color.green)
+                                                    
+                                                
+                                                
                                             ForEach(station.lines,id: \.self) { line in
                                                 
                                                 
@@ -57,6 +89,7 @@ struct SearchRecords: View {
                                                     
                                                     
                                                 Text("\(line)")
+                                                    //.font(.system(size: 20))
                                                     .frame(width: geometry.size.width / 3, height: 20)
                                                     
                                                 
@@ -64,6 +97,8 @@ struct SearchRecords: View {
                                                     .resizable()
                                                     .frame(width: geometry.size.width / 3, height: 20)
                                                     .cornerRadius(2)
+                                                    
+                                                  
                                                 
                                             
                                                     }
