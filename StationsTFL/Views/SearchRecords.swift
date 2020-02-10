@@ -27,6 +27,13 @@ struct SearchRecords: View {
     @EnvironmentObject var mapCoordinates: CoordinateLongLat
    
     
+    func openMap() -> some View {
+        
+        NavigationLink(destination: MapView().edgesIgnoringSafeArea(.all)) {
+                                                              EmptyView()
+                                                           }
+        
+    }
     
     
     
@@ -53,23 +60,27 @@ struct SearchRecords: View {
                                                 
                                                 HStack {
                                                     Text("\(station.name)")
-                                                        .onTapGesture {
-                                                            
-                                                            
-                                                            self.mapCoordinates.latitude = station.latitude
-                                                            self.mapCoordinates.longitude = station.longitude
-                                                            self.mapCoordinates.name = station.name
-                                                            
-                                                            
-                                                    }
                                                     
+                                                    Button(action: {
+                                                        
+                                                        self.mapCoordinates.latitude = station.latitude
+                                                        self.mapCoordinates.longitude = station.longitude
+                                                        self.mapCoordinates.name = station.name
+                                                        
+                                                    }) {
+                                                    
+                                                        Text("Details...")
+                                                            .font(.system(size: 14))
+                                                            .foregroundColor(Color.blue)
+                                                        
+                        
+                                                    }
                                                     NavigationLink(destination: MapView().edgesIgnoringSafeArea(.all)) {
-                                                       EmptyView()
-                                                    
-                                                       
+                                                            EmptyView()
+                                                                                                           
+                                                                                                              
                                                     }
-                                                    
-                                               
+                                                        
                                                     
                                                   
                                            
@@ -89,9 +100,8 @@ struct SearchRecords: View {
                                                     
                                                     
                                                 Text("\(line)")
-                                                    //.font(.system(size: 20))
-                                                    .frame(width: geometry.size.width / 3, height: 20)
-                                                    
+                                                    .frame(width: geometry.size.width / 2, height: 20)
+                                                   
                                                 
                                                 Image("\(line)")
                                                     .resizable()
