@@ -103,7 +103,7 @@ struct TubeGame: View {
                 .foregroundColor(Color.white)
                 .cornerRadius(6)
                 
-                }.padding()
+            }.padding()
             
             TextField("Station Name",text: $tubeSation)
             
@@ -252,17 +252,38 @@ struct TubeGame: View {
                     
                     Spacer().frame(height:80)
                     
+                    HStack {
+                            
+                        Button(action: {
+                            
+                            
+                        }) {
+                            
+                            Text("calculate")
+                                .padding()
+                                .frame(width:120,height: 40)
+                                .background(Color.blue)
+                                .foregroundColor(Color.white)
+                                .cornerRadius(6)
+                            
+                            
+                            
+                            
+                        }
+                        
+                        
+                            Text("Score:")
+                                .foregroundColor(Color.purple)
+                                .font(.system(size: 25))
+                                .padding()
+                                
                     
-                    Text("Tube Test Score:")
-                    .foregroundColor(Color.purple)
-                    .font(.system(size: 25))
-                    .padding()
-                    
+                        
                 
+                    
+                    
+                    }.padding().frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .leading)
                     Spacer()
-                    
-                    
-                    
                 
                 }
                 
