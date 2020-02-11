@@ -69,7 +69,7 @@ struct SearchRecords: View {
                                                         
                                                     }) {
                                                     
-                                                        Text("Details...")
+                                                        Text("Map")
                                                             .font(.system(size: 14))
                                                             .foregroundColor(Color.blue)
                                                         

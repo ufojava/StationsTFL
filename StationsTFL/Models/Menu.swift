@@ -83,8 +83,12 @@ struct Menu: View {
                         //Station Stats
                 if stationStatsToggle {
                     
+                    //Navigation Link
+                    NavigationLink(destination: TubeGame()) {
+                    
                     MenuIcons(icons: "gamecontroller")
                         .foregroundColor(Color.blue)
+                    }
                 }
                         
             
