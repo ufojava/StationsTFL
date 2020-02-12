@@ -28,10 +28,7 @@ struct ContentView: View {
                                 
                             Menu()
                             
-                            //Text("Hello, World!")
-                           //AllStationRecords()
-                            
-                            
+            
                             
                         }//End ZStack Background Image
                 
