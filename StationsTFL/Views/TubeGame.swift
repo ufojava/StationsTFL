@@ -127,11 +127,13 @@ struct StationDisplay:  View {
       @State private var centralLineSelected = ""
       @State private var victoriaLineSelected = ""
     
-    //Selected Lines - Row Three
-    @State private var northernLineSelected = ""
-    @State private var waterlooLineSelected = ""
-    @State private var hammersmithLineSelected = ""
-    @State private var docklandsLineSelected = ""
+       //Selected Lines - Row Three
+       @State private var northernLineSelected = ""
+       @State private var waterlooLineSelected = ""
+       @State private var hammersmithLineSelected = ""
+       @State private var docklandsLineSelected = ""
+        
+       @State private var clueNumberOfStations = ""
       
       
       
@@ -145,6 +147,17 @@ struct StationDisplay:  View {
           
           
       }
+    
+    //function to count the number of stations
+    func stationClue(inStation: String) -> Int {
+        
+     
+        
+        let stationLineFilter = allStations.dataStructure.filter {$0.name == inStation}
+        let totalCount = stationLineFilter.reduce(0) {$0 + $1.lines.count}
+       
+        return totalCount
+    }
       
     
     var body: some View {
@@ -163,6 +176,8 @@ struct StationDisplay:  View {
                     Button(action: {
                         
                         self.tubeSation = self.stationName()
+                        self.clueNumberOfStations = self.tubeSation
+                        readSelectedLines(line: self.tubeSation)
                         
                         
                         
@@ -515,6 +530,14 @@ struct StationDisplay:  View {
                                 Text("\(self.docklandsLineSelected)")
                                     .foregroundColor(Color(red: 0.1, green: 0.9, blue: 0.9))
                                 
+                                
+                                
+                            }
+                            
+                            HStack {//Test Ground
+                                
+                                Text("Clue!!! : \(stationClue(inStation: self.clueNumberOfStations)) Stations").bold()
+                                    .foregroundColor(Color.green)
                                 
                                 
                             }
