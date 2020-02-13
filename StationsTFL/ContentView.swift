@@ -34,7 +34,7 @@ struct ContentView: View {
                 
                 }//End Main ZStack
             
-            .navigationBarTitle(Text("🚇🚇🚇"))
+            .navigationBarTitle(Text("🛤🛤🛤"))
         }//Navigation View
         
         
