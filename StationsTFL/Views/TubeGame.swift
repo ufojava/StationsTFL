@@ -536,7 +536,7 @@ struct StationDisplay:  View {
                             
                             HStack {//Test Ground
                                 
-                                Text("Clue!!! : \(stationClue(inStation: self.clueNumberOfStations)) Stations").bold()
+                                Text("Clue!!! : \(stationClue(inStation: self.clueNumberOfStations)) Line(s)").bold()
                                     .foregroundColor(Color.green)
                                 
                                 
