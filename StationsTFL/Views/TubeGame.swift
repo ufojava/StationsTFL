@@ -132,9 +132,61 @@ struct StationDisplay:  View {
        @State private var waterlooLineSelected = ""
        @State private var hammersmithLineSelected = ""
        @State private var docklandsLineSelected = ""
-        
+       
+    
+       //Line clue
        @State private var clueNumberOfStations = ""
       
+       //Variable to count number of selection
+        @State private var selectionCounter = 0
+    
+    //Get Answers
+    @State private var getAnswers = ""
+    
+    
+    
+    //Function to get list of lines
+    func stationLine(inStation: String) -> some View {
+        
+       
+        
+        ForEach(allStations.dataStructure.filter {$0.name == inStation},id: \.id) { station in
+            
+            ForEach(station.lines,id: \.self) { line in
+                
+              Text("\(line) Line")
+                    .foregroundColor(Color.blue)
+            }
+            
+        }
+        
+        
+    }
+    
+    
+    //Function with clue facial expression
+    var facialExpresstion: String {
+        
+        var expression = ""
+        
+        
+        if stationClue(inStation: self.clueNumberOfStations) == 0 {
+            
+            expression = "😕"
+        } else if self.selectionCounter > stationClue(inStation: self.clueNumberOfStations) {
+            
+            expression = "😩"
+        } else if self.selectionCounter == stationClue(inStation: self.clueNumberOfStations) {
+            
+            expression = "🤪"
+        } else {
+            
+            expression = "😕"
+        }
+        
+        
+        return expression
+    }
       
       
       
@@ -175,9 +227,12 @@ struct StationDisplay:  View {
                     HStack {
                     Button(action: {
                         
+                        self.getAnswers = ""
                         self.tubeSation = self.stationName()
                         self.clueNumberOfStations = self.tubeSation
                         readSelectedLines(line: self.tubeSation)
+                        
+                    
                         
                         
                         
@@ -219,15 +274,16 @@ struct StationDisplay:  View {
                                            
                                           self.districtLineButtonToggle.toggle()
                                           
-                                           if self.districtLineButtonToggle {
+                                        if self.districtLineButtonToggle {
                                                
                                                self.districtLineSelected = ""
-                                        
-                                               
+                                                self.selectionCounter -= 1
+                                              
                                                
                                            } else {
                                                
                                                self.districtLineSelected = "District"
+                                                self.selectionCounter += 1
                                                
                                                //Play selected
                                                 readSelectedLines(line: self.districtLineSelected)
@@ -248,12 +304,18 @@ struct StationDisplay:  View {
                                            
                                            self.piccadillyLineButtonToggle.toggle()
                                            
-                                           if self.piccadillyLineButtonToggle {
+                                        if self.piccadillyLineButtonToggle {
                                                
                                                self.piccadillyLineSelected = ""
+                                               self.selectionCounter -= 1
+                                            
+                                        
+                                            
                                            } else {
                                                
                                                self.piccadillyLineSelected = "Picadilly"
+                                               self.selectionCounter += 1
+                                            
                                                 //Play Selected
                                             readSelectedLines(line: self.piccadillyLineSelected)
                                            }
@@ -267,12 +329,17 @@ struct StationDisplay:  View {
                                            
                                            self.circleLineButtonToggle.toggle()
                                            
-                                           if self.circleLineButtonToggle {
+                                        if self.circleLineButtonToggle {
                                                
                                                self.circleLineSelected = ""
+                                               self.selectionCounter -= 1
+                                            
+                                        
+                                            
                                            } else {
                                                
                                                self.circleLineSelected = "Circle"
+                                               self.selectionCounter += 1
                                             
                                                 //Play Selected
                                                 readSelectedLines(line: self.circleLineSelected)
@@ -289,12 +356,15 @@ struct StationDisplay:  View {
                                            
                                            self.bakerlooLineButtonToggle.toggle()
                                            
-                                           if self.bakerlooLineButtonToggle {
+                                        if self.bakerlooLineButtonToggle  {
                                                
                                                self.bakerlooLineSelected = ""
+                                               self.selectionCounter -= 1
                                            } else {
                                                
                                                self.bakerlooLineSelected = "Bakerloo"
+                                               self.selectionCounter += 1
+                                            
                                                 //Play Selected
                                                 readSelectedLines(line: self.bakerlooLineSelected)
                                            }
@@ -316,12 +386,17 @@ struct StationDisplay:  View {
                                            
                                            self.jubileeLineButtonToggle.toggle()
                                            
-                                           if self.jubileeLineButtonToggle {
+                                        if self.jubileeLineButtonToggle {
                                                
+                                
                                                self.jubileeLineSelected = ""
+                                               self.selectionCounter -= 1
+                                            
                                            } else {
                                                
                                                self.jubileeLineSelected = "Jubilee"
+                                               self.selectionCounter += 1
+                                            
                                             //Play Selected
                                             readSelectedLines(line: self.jubileeLineSelected)
                                            }
@@ -336,12 +411,16 @@ struct StationDisplay:  View {
                                            
                                            self.metropolitanLineButtonToggle.toggle()
                                            
-                                           if self.metropolitanLineButtonToggle {
+                                        if self.metropolitanLineButtonToggle  {
                                                
                                                self.metropolitanLineSelected = ""
+                                               self.selectionCounter -= 1
+                                            
+                                            
                                            } else {
                                                
                                                self.metropolitanLineSelected = "Metropolitan"
+                                               self.selectionCounter += 1
                                             
                                                 //Play Selected
                                                 readSelectedLines(line: self.metropolitanLineSelected)
@@ -361,9 +440,12 @@ struct StationDisplay:  View {
                                            if self.centralLineButtonToggle {
                                                
                                                self.centralLineSelected = ""
+                                               self.selectionCounter -= 1
                                            } else {
                                                
                                                self.centralLineSelected = "Central"
+                                                self.selectionCounter += 1
+                                            
                                             //Play Selected
                                             readSelectedLines(line: self.centralLineSelected)
                                            }
@@ -380,9 +462,12 @@ struct StationDisplay:  View {
                                            if self.victoriaLineButtonToggle {
                                                
                                                self.victoriaLineSelected = ""
+                                               self.selectionCounter -= 1
+                                               
                                            } else {
                                                
                                                self.victoriaLineSelected = "Victoria"
+                                                self.selectionCounter += 1
                                                 //Play Selected
                                                 readSelectedLines(line: self.victoriaLineSelected)
                                            }
@@ -406,9 +491,11 @@ struct StationDisplay:  View {
                                         if self.northernLineButtonToggle {
                                             
                                             self.northernLineSelected = ""
+                                            self.selectionCounter -= 1
                                         } else {
                                             
                                             self.northernLineSelected = "Northern"
+                                            self.selectionCounter += 1
                                             //Play Selected
                                             readSelectedLines(line: self.northernLineSelected)
                                         }
@@ -426,10 +513,12 @@ struct StationDisplay:  View {
                                         if self.waterlooLineButtonToggle {
                                             
                                             self.waterlooLineSelected = ""
+                                            self.selectionCounter -= 1
                                             
                                         } else {
                                             
                                             self.waterlooLineSelected = "Waterloo"
+                                            self.selectionCounter += 1
                                             //Play Selected
                                             readSelectedLines(line: self.waterlooLineSelected)
                                         }
@@ -445,10 +534,12 @@ struct StationDisplay:  View {
                                         if self.hammersmithLineButtonToggle {
                                             
                                             self.hammersmithLineSelected = ""
+                                            self.selectionCounter -= 1
                                             
                                         } else {
                                             
                                             self.hammersmithLineSelected = "Hammersmith"
+                                            self.selectionCounter += 1
                                             //Play Selected
                                             readSelectedLines(line: self.hammersmithLineSelected)
                                         }
@@ -465,9 +556,11 @@ struct StationDisplay:  View {
                                         if self.docklandsLineButtonToggle {
                                             
                                             self.docklandsLineSelected = ""
+                                            self.selectionCounter -= 1
                                             
                                         } else {
                                             self.docklandsLineSelected = "Docklands"
+                                            self.selectionCounter += 1
                                             //Play Selected
                                             readSelectedLines(line: self.docklandsLineSelected)
                                             
@@ -479,7 +572,7 @@ struct StationDisplay:  View {
                            
                            
                            //List selected Lines
-                           Section(header: Text("Lines Selected").bold()) {
+                        Section(header: Text("Lines Selected: \(self.selectionCounter)").bold()) {
                                
                                HStack {
                                
@@ -536,24 +629,32 @@ struct StationDisplay:  View {
                             
                             HStack {//Test Ground
                                 
-                                Text("Clue!!! : \(stationClue(inStation: self.clueNumberOfStations)) Line(s)").bold()
+                                Text("Clue!!! : \(stationClue(inStation: self.clueNumberOfStations)) Line(s) \(facialExpresstion)").bold()
                                     .foregroundColor(Color.green)
                                 
                                 
                             }
                             
+                            
+                           
+                            
                            }
                            
                            Spacer().frame(height:80)
+                        
+                        
+                        
                            
                            HStack {
                                    
                                Button(action: {
                                    
+                                self.getAnswers = self.tubeSation
+                            
                                    
                                }) {
                                    
-                                   Text("calculate")
+                                   Text("Answer")
                                        .padding()
                                        .frame(width:120,height: 40)
                                        .background(Color.blue)
@@ -565,23 +666,21 @@ struct StationDisplay:  View {
                                    
                                }
                                
-                               
-                                   Text("Score:")
-                                       .foregroundColor(Color.purple)
-                                       .font(.system(size: 25))
-                                       .padding()
+                               stationLine(inStation: self.getAnswers)
+                                   
                                        
                            
                            
                            }.padding().frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .leading)
-                           //Spacer()
+                
                            
                            
                        
                        }
                            
                   
-                           
+            
+                Spacer()
                      
                        .navigationBarTitle(Text("Tube Game"),displayMode: .inline)
                        
