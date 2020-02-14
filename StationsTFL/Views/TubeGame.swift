@@ -143,6 +143,11 @@ struct StationDisplay:  View {
     //Get Answers
     @State private var getAnswers = ""
     
+    //Correct
+    @State private var isCorrect = ""
+    @State private var displayAnswer = ""
+    @State private var correctAnswerCounter = 0
+    
     
     
     //Function to get list of lines
@@ -156,6 +161,23 @@ struct StationDisplay:  View {
                 
               Text("\(line) Line")
                     .foregroundColor(Color.blue)
+                .onAppear() {
+                    
+                    if (self.districtLineSelected == line) || (self.piccadillyLineSelected == line) || (self.circleLineSelected == line) || (self.bakerlooLineSelected == line) || (self.jubileeLineSelected == line) || (self.metropolitanLineSelected == line) || (self.centralLineSelected == line) || (self.victoriaLineSelected == line) || (self.northernLineSelected == line) || (self.waterlooLineSelected == line) || (self.hammersmithLineSelected == line) || (self.docklandsLineSelected == line){
+                        self.isCorrect = "Correct Answer"
+                            readSelectedLines(line: self.isCorrect)
+                            
+                            //Add score
+                        self.correctAnswerCounter += 1
+                    } else {
+                        
+                        self.isCorrect = "Incorrect Answer"
+                            readSelectedLines(line: self.isCorrect)
+                            self.correctAnswerCounter -= 1
+                    }
+                    
+                    
+                }
             }
             
         }
@@ -210,7 +232,9 @@ struct StationDisplay:  View {
        
         return totalCount
     }
-      
+    
+
+    
     
     var body: some View {
         
@@ -228,6 +252,7 @@ struct StationDisplay:  View {
                     Button(action: {
                         
                         self.getAnswers = ""
+                        self.isCorrect = ""
                         self.tubeSation = self.stationName()
                         self.clueNumberOfStations = self.tubeSation
                         readSelectedLines(line: self.tubeSation)
@@ -650,6 +675,7 @@ struct StationDisplay:  View {
                                Button(action: {
                                    
                                 self.getAnswers = self.tubeSation
+                                self.displayAnswer = self.tubeSation
                             
                                    
                                }) {
@@ -666,8 +692,20 @@ struct StationDisplay:  View {
                                    
                                }
                                
+                            VStack {
                                stationLine(inStation: self.getAnswers)
-                                   
+                                
+                                //Color for answer
+                                Text("\(isCorrect)")
+                                    .foregroundColor(Color.yellow)
+                        
+                                
+                           
+                            }
+                            
+                            Text("Score: \(self.correctAnswerCounter)")
+                                .foregroundColor(Color.purple)
+                                .font(.system(size: 25))
                                        
                            
                            

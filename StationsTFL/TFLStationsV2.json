@@ -5,7 +5,7 @@
        "name":"Abbey Road",
        "latitude": 51.531952,
        "longitude": 0.003723,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
        "id": 2,
@@ -37,7 +37,7 @@
        "name":"All Saints",
        "latitude": 51.510301,
        "longitude": -0.012832,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 6,
@@ -55,6 +55,7 @@
        "longitude": -0.60732,
        "lines": ["Metropolitan"]
     },
+    
     {
         "id": 8,
        "tla":"ANG",
@@ -157,7 +158,7 @@
        "name":"Beckton Park",
        "latitude": 51.508901,
        "longitude": 0.054822,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 21,
@@ -213,7 +214,7 @@
        "name":"Blackwall",
        "latitude": 51.507832,
        "longitude": -0.007235,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 28,
@@ -253,7 +254,7 @@
        "name":"Bow Church",
        "latitude": 51.527615,
        "longitude": -0.0205,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 33,
@@ -349,7 +350,7 @@
        "name":"Canning Town",
        "latitude": 51.5140,
        "longitude": -0.0083,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 45,
@@ -485,7 +486,7 @@
        "name":"Crossharbour",
        "latitude": 51.51308,
        "longitude": -0.12427,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 62,
@@ -501,7 +502,7 @@
        "name":"Custom House for ExCeL",
        "latitude": 51.509622,
        "longitude": 0.025773,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 64,
@@ -509,7 +510,7 @@
        "name":"Cutty Sark for Maritime Greenwich",
        "latitude": 51.481944,
        "longitude": -0.010582,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 65,
@@ -517,7 +518,7 @@
        "name":"Cyprus",
        "latitude": 51.508527,
        "longitude": 0.063841,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 66,
@@ -549,7 +550,7 @@
        "name":"Deptford Bridge",
        "latitude": 51.474477,
        "longitude": -0.022052,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 70,
@@ -557,7 +558,7 @@
        "name":"Devons Road",
        "latitude": 51.522258,
        "longitude": -0.018008,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 71,
@@ -621,7 +622,7 @@
        "name":"East India",
        "latitude": 51.508684,
        "longitude": -0.00237,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 79,
@@ -685,7 +686,7 @@
        "name":"Elverson Road",
        "latitude": 51.468372,
        "longitude": -0.016816,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 87,
@@ -773,7 +774,7 @@
        "name":"Gallions Reach",
        "latitude": 51.509034,
        "longitude": 0.071775,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 98,
@@ -845,7 +846,7 @@
        "name":"Greenwich",
        "latitude": 51.477548,
        "longitude": -0.014863,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 107,
@@ -965,7 +966,7 @@
        "name":"Heron Quays",
        "latitude": 51.503387,
        "longitude": -0.021954,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 122,
@@ -1085,7 +1086,7 @@
        "name":"Island Gardens",
        "latitude": 51.488001,
        "longitude": -0.011039,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 137,
@@ -1157,7 +1158,7 @@
        "name":"King George V",
        "latitude": 51.502009,
        "longitude": -0.062206,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 146,
@@ -1205,7 +1206,7 @@
        "name":"Langdon Park",
        "latitude": 51.515173,
        "longitude": 0.014119,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 152,
@@ -1221,7 +1222,7 @@
        "name":"Lewisham",
        "latitude": 51.4653,
        "longitude": 0.0133,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 154,
@@ -1245,7 +1246,7 @@
        "name":"Limehouse",
        "latitude": 51.5158,
        "longitude": 0.0318,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 157,
@@ -1269,7 +1270,7 @@
        "name":"London City Airport",
        "latitude": 51.5032,
        "longitude": 0.0532,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 160,
@@ -1381,7 +1382,7 @@
        "name":"Mudchute",
        "latitude": 51.4912,
        "longitude": 0.0150,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 174,
@@ -1597,7 +1598,7 @@
        "name":"Pontoon Dock",
        "latitude": 51.502222,
        "longitude": 0.031944,
-       "lines": ["Docklads Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 201,
@@ -1605,7 +1606,7 @@
        "name":"Poplar",
        "latitude": 51.5077,
        "longitude": 0.0174,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 202,
@@ -1613,7 +1614,7 @@
        "name":"Prince Regent",
        "latitude": 51.5093,
        "longitude": 0.0337,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 203,
@@ -1621,7 +1622,7 @@
        "name":"Pudding Mill Lane",
        "latitude": 51.5341,
        "longitude": 0.0138,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 204,
@@ -1717,7 +1718,7 @@
        "name":"Royal Albert",
        "latitude": 51.5083,
        "longitude": 0.0459,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 216,
@@ -1725,7 +1726,7 @@
        "name":"Royal Victoria",
        "latitude": 51.5092,
        "longitude": 0.0187,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 217,
@@ -1773,7 +1774,7 @@
        "name":"Shadwell",
        "latitude": 51.51115,
        "longitude": -0.05693,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 223,
@@ -1837,7 +1838,7 @@
        "name":"South Quay",
        "latitude": 51.50104,
        "longitude": 0.017303,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 231,
@@ -1933,7 +1934,7 @@
        "name":"Star Lane",
        "latitude": 51.5207,
        "longitude": 0.0042,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 243,
@@ -1973,7 +1974,7 @@
        "name":"Stratford High Street",
        "latitude": 51.541208,
        "longitude": -0.003776,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 248,
@@ -1981,7 +1982,7 @@
        "name":"Stratford International",
        "latitude": 51.541208,
        "longitude": -0.003776,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 249,
@@ -2069,7 +2070,7 @@
        "name":"Tower Gateway",
        "latitude": 51.5106,
        "longitude": 0.0738,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 260,
@@ -2285,7 +2286,7 @@
        "name":"West India Quay",
        "latitude": 51.5067,
        "longitude": 0.0203,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 287,
@@ -2309,7 +2310,7 @@
        "name":"West Silvertown",
        "latitude": 51.5030,
        "longitude": 0.0227,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 290,
@@ -2317,7 +2318,7 @@
        "name":"Westferry",
        "latitude": 51.509372,
        "longitude": 0.026697,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
     },
     {
         "id": 291,
@@ -2405,6 +2406,22 @@
        "name":"Woolwich Arsenal",
        "latitude": 51.490,
        "longitude": 0.069,
-       "lines": ["Dockland Light"]
+       "lines": ["Docklands"]
+    },
+    {
+     "id": 302,
+    "tla":"AMO",
+    "name":"Amos Grove",
+    "latitude": 51.61625,
+    "longitude":-0.13355,
+    "lines": ["Piccadilly"]
+    },
+    {
+     "id": 303,
+    "tla":"BAY",
+    "name":"Bayswater",
+    "latitude": 51.51224,
+    "longitude":-0.187569,
+    "lines": ["Circle", "District"]
     }
  ]
